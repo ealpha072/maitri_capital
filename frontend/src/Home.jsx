@@ -4,7 +4,7 @@ import { BrowserRouter as Router, Routes, Route} from 'react-router-dom'
 //pages
 import Header from './components/Header'
 import Footer from './components/Footer'
-import Courassel from './components/Courassel'
+// import Courassel from './components/Courassel'
 import Research from './components/Research'
 import About from './components/About'
 //import Abouttwo from './components/Abouttwo'
@@ -15,7 +15,7 @@ import Careers from './components/Careers'
 import Contact from './components/Contact'
 import Knowledge from './components/Knowledge'
 import Credentials from './components/Credentials'
-import Banner from './components/Banner'
+// import Banner from './components/Banner'
 //https://shrouded-dusk-31492.herokuapp.com/
 
 const Home = () => {

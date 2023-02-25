@@ -24,7 +24,7 @@ const Credentials = () => {
                         <div className={styles.innerHolder}>
                             <img src={image_1} alt="" width={148} height={70} />
                             <div className={styles.transHolder}>
-                                <h3>Cannon Chemicals</h3>
+                                <h3>Cannon <br /> Chemicals</h3>
                                 <p>Sale of Cannon Chemicals</p>
                             </div>
                         </div>
@@ -33,8 +33,8 @@ const Credentials = () => {
                         <div className={styles.innerHolder}>
                             <img src={image_2} alt="" width={148} height={70} />
                             <div className={styles.transHolder}>
-                                <h3>Cannon Chemicals</h3>
-                                <p>Sale of Cannon Chemicals</p>
+                                <h3>East African Seed Company</h3>
+                                <p>Sale of EASEED</p>
                             </div>
                         </div>
                     </div>
@@ -42,8 +42,8 @@ const Credentials = () => {
                         <div className={styles.innerHolder}>
                             <img src={image_3} alt="" width={148} height={70} />
                             <div className={styles.transHolder}>
-                                <h3>Cannon Chemicals</h3>
-                                <p>Sale of Cannon Chemicals</p>
+                                <h3>Saruni <br /> Lodges</h3>
+                                <p>Sale of Saruni Lodge</p>
                             </div>
                         </div>
                     </div>
