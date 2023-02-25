@@ -1,0 +1,31 @@
+.teamPics img{
+    width: 60%;
+    max-width: 100%;
+}
+
+.teamPics > div{
+    padding-top: 25px;
+    padding-bottom:25px;
+    width: 90%;
+    margin:auto;
+    overflow: hidden;
+}
+
+.teamDetails{
+    padding: 20px;
+}
+
+.teamDetails p:first-child{
+    color: #154667;
+    font-family: "Georgia",serif;
+    margin-bottom: 5px;
+    transition: color .5s;
+}
+
+.teamDetails p:last-child{
+    color: #4d4f53;
+    font-size: .938rem;
+    line-height: 1.063rem;
+    font-weight: 400;
+    margin-bottom: 5px;
+}

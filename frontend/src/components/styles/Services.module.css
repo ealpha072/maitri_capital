@@ -1,0 +1,216 @@
+.diverse{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+    background-color: var(--bg1);
+}
+
+.diverse div:first-child{
+    width: 65%;
+    margin-left: auto; 
+}
+
+.diverse div:first-child p{
+    width: 90%;
+}
+
+.diverse div:first-child p:last-child{
+    font-size: 1.25rem;
+    line-height: 1.875rem;
+    color: #154667;
+    font-family: "Georgia",serif;
+    margin-bottom: 20px;
+    padding-left: 25px;
+}
+
+.diverse img{
+    width: auto;
+    max-width: 100%;
+    max-height: 100%;
+    height: 100%;
+}
+
+.services{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+    background-color: #fff;
+}
+
+.services div{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: left;
+    width: 25%;
+    height: max-content;
+}
+
+.services div h4{
+    font-size:14px;
+    font-weight: bold;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+}
+
+.services div p{
+    padding: 20px;
+}
+
+/*RSEEARCH SECTION */
+.researchServices{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: rgb(193, 222, 231);
+}
+
+.researchDetails{
+    width: 60%;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+.researchDetails h3, 
+.researchDetails p{
+    text-align: center;
+    margin-bottom: 20px;
+    width: 50%;
+    margin: auto;
+}
+
+.researchDetails h3{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 500;
+    font-size: 2.75rem;
+    line-height: 3.25rem;
+}
+
+.researchDetails p{
+    padding-top: 10px;
+    font-size: 1.25rem;
+    line-height: 2rem;
+}
+
+.researchHolder{
+    border-top: 1px solid black;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+.researchHolder > div{
+    display: flex;
+    padding-top: 50px;
+}
+
+.researchHolder > div > div {
+    background-color: #fff;
+    border-radius: 6px;
+    width: calc(84%/4);
+    margin: auto;
+    cursor: pointer;
+    margin-top: 5px;
+}
+
+.researchHolder > div > div:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.researchHolder h5{
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    color: #000;
+}
+
+.singleResearch{
+    padding: 15px 25px;
+}
+
+.singleResearch h6{
+    font-size: 0.8rem;
+}
+
+.singleResearch h5:hover{
+    color: blue;
+    text-decoration: underline;
+}
+
+@media screen and (max-width:750px){
+    .diverse img{
+        display: none;
+    }
+
+    .diverse div:first-child{
+        width: 90%;
+        margin: auto;
+    }
+
+    .diverse div:first-child p:last-child{
+        font-size: 1.2rem;
+    }
+
+    .services{
+        flex-direction: column;
+        width: 90%;
+        margin:15px auto;
+    }
+
+    .services div{
+        width: 100%;
+        margin-top: 5px;
+        margin-bottom: 0px;
+    }
+
+    .services div h4, 
+    .services div p{
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+
+    .services div p{
+        font-size: 0.8rem;
+        line-height: 1.625rem;
+    }
+
+    .services div h4{
+        font-size: 1rem;
+    }
+
+    /*RESEARCH SECTION*/
+
+    .researchServices{
+        padding-bottom: 20px;
+    }
+
+    .researchHolder{
+        margin-bottom: 30px;
+    }
+
+    .researchDetails{
+        width: 90%;
+        margin-bottom: 30px;
+    }
+
+    .researchDetails p, 
+    .researchDetails h3{
+        width: 100%;
+    }
+
+    .researchDetails h3{
+        font-size: 2rem;
+    }
+
+    .researchDetails p{
+        font-size: 1rem;
+    }
+
+    .researchHolder > div{
+        flex-direction: column;
+        padding-top: 20px;
+    }
+
+    .researchHolder > div > div{
+        width: 85%;
+    }
+}

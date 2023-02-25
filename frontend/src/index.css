@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400&display=swap');
+
+:root{
+  --blue: #44546A;
+  --gold:#BF9000;
+  --gray:#7F7F7F;
+  --hlblue:#002855;
+  --bg1:rgb(193, 222, 231);
+  --sm-font:0.8rem;
+  --md-font:2rem;
+}
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  font-family: 'Poppins', sans-serif ;
+  max-width: 100%;
+  min-width: 100%;
+}
+
+a{
+  text-decoration: none;
+}
+
+ul, li{
+  padding: 0;
+  list-style-type: none;
+}
+
+.d-flex{
+  display: flex;
+}
+
+.mg-rt{
+  margin-right: 50px;
+}
+
+.mg-tp{
+  margin-top: 50px;
+}
+
+.bg-white{
+  background-color: #fff;
+}
+
+#root{
+  width: 100%;
+}
+
+/*COURASEL*/
+section{
+  margin-top: 150px;
+  overflow: hidden;
+  max-height: 400px;
+  margin-bottom: 50px;
+  position: relative;
+}
+
+section div.front{
+  position: absolute;
+  top: 100px;
+  left: 50px;
+  opacity: 0.875;
+  background-color: aliceblue;
+  width: 70%;
+}
+
+.front-p{
+  font-size: 1.875rem;
+  line-height: 2.375rem;
+  letter-spacing: -1px;
+  color:var(--hlblue);
+  padding: 10px 25px 0 25px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.front-p2{
+  font-size: 1.125rem;
+  line-height: 1.375rem;
+  letter-spacing: -1px;
+  margin-bottom: 10px;
+  padding-left: 25px;
+  color: #000;
+}
+
+.front i{
+  font-size: 20px !important;
+  padding-left: 25px;
+  padding-bottom: 12px;
+  color: var(--gold);
+}
+
+/*ABOUT US*/
+
+div.about-top{
+  justify-content: space-between;
+  width: 90%;
+  margin: auto;
+  background-color: #fff;
+  margin-bottom: 20px;
+}
+
+div.about-p{
+  width: 60%;
+}
+
+div.about-top p.p-about{
+  font-size: 1.25rem;
+  line-height: 1.875rem;
+  color: #154667;
+  font-family: "Georgia",serif;
+  margin-bottom: 20px;
+  padding-left: 25px;
+}
+
+/*INDUSTRY COVERAGE*/
+.sector-brief{
+  justify-content: space-between;
+}
+
+.hide{
+  display: none;
+}
+
+.hidden-industries{
+  padding-top: 0px;
+}
+
+/*BREAKPOINTS*/
+@media screen and (max-width:750px){
+  /*ABOUT */
+  div.about-top{
+    flex-direction: column;
+  }
+
+  div.about-top p.p-about{
+    font-size: 1rem;
+    line-height: 1.6rem;
+    font-family: "Georgia",serif;
+  }
+
+  .front i, div.about-left ul li{
+    font-size: 1rem;
+  }
+
+  div.about-p{
+    width: 100%;
+  }
+
+  p.front-p{
+    font-size: 1.8rem;
+  }
+
+  /*SERVICE*/
+  p.heading-sect{
+    font-size: 2rem;
+    text-align: left !important;
+    width: 90%;
+    margin-left: auto;
+  }
+}

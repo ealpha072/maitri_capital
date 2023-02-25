@@ -1,0 +1,70 @@
+.sectorCount{
+    padding-top: 20px;
+    margin-top: 4%;
+    margin-right: 10%;
+    text-align: center;
+}
+
+.sectorCount p:first-child{
+    font-size: 2.5rem;
+    line-height: 2.5rem;
+    letter-spacing: -3px;
+    color: #154667;
+    font-family: "Georgia",serif;
+    margin-bottom: 10px;
+}
+
+.sectorCount p:last-child{
+    font-size: 1.063rem;
+    line-height: 1.625rem;
+}
+
+.specificIndustries{
+    width: 90%;
+    margin: auto;
+    font-size: 1.875rem;
+    line-height: 2.375rem;
+    letter-spacing: -1px;
+    color:var(--hlblue);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 15px 0px 0px 8px;
+}
+
+.bottomSection{
+    width: 90%;
+    margin: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.bottomSection > div > div{
+    border-radius: 2px;
+    background-color: #fff;
+    text-align: center;
+    cursor: pointer;
+}
+
+.bottomSection > div > div:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.bottomSection > div > div i{
+    color: var(--hlblue);
+    font-size: 4.25rem;
+    padding-top: 35px;
+}
+
+.bottomSection > div > div h4{
+    font-weight: bold;
+    font-size: 1rem;
+    padding-top: 12px;
+    padding-bottom: 35px;
+}
+
+.bottomSection > div > div h4:hover{
+    color: #2bb8e2;
+}
+
+@media screen and (max-width:750px){
+
+}

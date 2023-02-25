@@ -1,0 +1,62 @@
+@media screen and (max-width:750px){
+    .logoHolder{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 90%;
+        margin: auto;
+    }
+
+    .logoHolder button{
+        border: none;
+    }
+
+    .logoHolder i{
+        font-size: 24px !important;
+        color: var(--hlblue);
+    }
+
+    .logoHolder button:focus{
+        box-shadow: none;
+    }
+
+    .logoHolder a{
+        font-size: 22px;
+        color: var(--hlblue);
+        font-weight: bolder;
+    }
+
+    .collapseSmall{
+        position: absolute;
+        top: 6rem;
+        height: 100vh;
+        width: 100%;
+        overflow-y: hidden;
+        background-color: #fff;
+    }
+
+    .collapseSmall ul{
+        font-family: "Source Sans Pro",sans-serif;
+        color: #000000;
+        padding-top: 75px;
+        display: flex;
+        height: 100%;
+        width: 90%;
+        margin: auto;
+    }
+
+    .collapseSmall ul li{
+        width: 90%;
+        margin-left: 12px;
+        padding: 10px;
+        border-bottom: 1px solid #4d4f53;
+        line-height: 1.125rem;
+    }
+
+    .collapseSmall ul li a{
+        width: 100%;
+        margin: 0;
+        padding: 10px 0;
+        display:block;
+    }
+}

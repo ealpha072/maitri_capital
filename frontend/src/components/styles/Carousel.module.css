@@ -1,0 +1,23 @@
+@media screen and (max-width:750px){
+    /*CAROUSEL*/
+    .w-100{
+        width: 100% !important;
+        height: 200px;
+        max-width: 100%;
+        object-fit: contain;
+    }
+
+    section div.front{
+        top: 30px;
+        left: 30px;
+        width: 90%;
+    }
+
+    .front-p2{
+        font-size: 0.8rem;
+    }
+
+    div p.front-p{
+        font-size: 1.2rem;
+    }
+}

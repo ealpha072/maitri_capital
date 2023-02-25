@@ -1,0 +1,118 @@
+
+.aboutBottom{
+    display: flex;
+    width: inherit;
+    background-color: #eae9e9;
+}
+
+.aboutBottom > div{
+    display: flex;
+    width: 90%;
+    margin: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.aboutBottom ul{
+    padding-left: 25px;
+}
+
+.aboutBottom ul li{
+    list-style-type: disc;
+    margin: 0 0 10px;
+    padding: 0 0 0 15px;
+    font-size: 1.063rem;
+    line-height: 1.625rem;
+}
+
+.aboutBottom ul li::marker{
+    color: var(--hlblue);
+    font-size: larger;
+}
+
+.aboutLeft{
+    width: 60%;
+    margin-right: 40px;
+}
+
+.aboutRight{
+    width: 30%;
+    padding-top: 60px;
+}
+
+.aboutRight p{
+    color: #2bb8e2;
+    font-size: 1.5rem;
+    line-height: 2.125rem;
+    font-family: "Georgia",serif;
+}
+
+.storyLine{
+    margin-top: 30px;
+    margin-bottom: 150px;
+    background-color: #fff;
+}
+
+.storyLine > div{
+    width: 94%;
+    margin: auto;
+}
+
+.storyLine > div > p:first-child{
+    font-size: 1.875rem;
+    line-height: 2.375rem;
+    letter-spacing: -1px;
+    color:var(--hlblue);
+    padding: 10px 25px 0 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.storyLine > div p:not(:first-child) {
+    width: 80%;
+    padding-left: 25px;
+}
+
+@media screen and (max-width:750px){
+    .foundingYear{
+        width: 100%;
+        text-align: center;
+    }
+
+    .aboutBottom > div {
+        flex-direction: column;
+    }
+
+    .aboutBottom ul li{
+        font-size: 0.8rem;
+    }
+
+    .aboutLeft, .aboutRight{
+        width: 100%;
+    }
+
+    .aboutRight p{
+        text-align: center;
+        font-size: 1.5rem;
+        padding-left: 15px;
+    }
+
+    .storyLine{
+        text-align: center;
+        margin-bottom: 100px;
+    }
+
+    .storyLine > div{
+        width: 90%;
+        margin: auto;
+    }
+
+    .storyLine > div > p:first-child, 
+    .storyLine > div > p:not(:first-child){
+        width: 90%;
+        margin: 10px auto;
+        padding-left: 0;
+    }
+    .storyLine > div > p:not(:first-child){
+        font-size: 0.8rem;
+    }
+}

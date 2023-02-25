@@ -1,0 +1,150 @@
+.knowledgeTop{
+    width: 90%;
+    margin: 50px auto;
+}
+
+
+.knowledgeTop p:first-child{
+    font-size: 1.875rem;
+    line-height: 2.375rem;
+    letter-spacing: -1px;
+    color:var(--hlblue);
+    padding: 10px 25px 0 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.knowledgeTop p:last-child{
+    width: 80%;
+    font-size: 1.25rem;
+    line-height: 1.875rem;
+    color: #154667;
+    font-family: "Georgia",serif;
+    margin-bottom: 20px;
+    padding-left: 25px;
+}
+
+/** SECOND DIV **/
+
+.wordsCont{
+    width: 30%;
+    margin: auto;
+    text-align: center;
+}
+
+.wordsCont h3{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 500;
+    font-size: 2.75rem;
+    line-height: 3.25rem;
+}
+
+.wordsCont p{
+    padding-top: 10px;
+    font-size: 1.25rem;
+    line-height: 2rem;
+}
+
+/** DIVIDER **/
+
+.dividerDiv{
+    width: 90%;
+    margin: 10px auto 50px;
+    border-top: 1px solid #000;
+}
+
+/** BOTTOM DIV*/
+
+.knowledgeMain{
+    width: 100%;
+}
+
+.knowledgeMain > div:not(:first-child){
+    width: 80%;
+    margin: 10px auto;
+}
+
+.knowledgeMain > div:not(:first-child) > div{
+    overflow: hidden;
+}
+
+.knowledgeMain img{
+    max-width: 100%;
+    height: auto;
+    /* transition: all .5s ease;  */
+    transition: transform .5s ease; 
+}
+
+.knowledgeMain img:hover{
+    transform: scale(1.1);
+}
+
+.infoHolder{
+    color: #000;
+    font-family: "Century Gothic", Helvetica, Arial, sans-serif;;
+    padding: 20px;
+}
+
+.infoHolder span{
+    font-size: 1.2rem;
+    color: #2d2d2d;
+    -webkit-font-smoothing:antialiased;
+}
+
+.infoHolder i{
+    font-size: 16px !important;
+    padding-right: 6px;
+}
+
+.infoHolder a{
+    color: #000;
+}
+
+.infoHolder a:hover{
+    color: blue;
+    text-decoration: underline;
+}
+
+.infoHolder h3{
+    font-size: 2.2rem;
+    line-height: 30px;
+    letter-spacing: 0px;
+}
+
+@media screen and (max-width:750px){
+    .knowledgeTop p:first-child{
+        font-size: 1.8rem;
+    }
+
+    .knowledgeTop p:last-child{
+        width: 100%;
+    }
+
+    .wordsCont{
+        width: 80%;
+    }
+
+    .wordsCont h3{
+        font-size: 2rem;
+    }
+
+    .wordsCont p{
+        font-size: 1rem;
+    }
+
+    .infoHolder{
+        padding: 10px;
+    }
+
+    .infoHolder span{
+        font-size: 0.875rem;
+    }
+
+    .infoHolder i{
+        font-size: 12px !important;
+    }
+
+    .infoHolder h3{
+        font-size: 1.2rem;
+    }
+}
+
