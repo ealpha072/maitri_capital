@@ -20,7 +20,7 @@ const Credentials = () => {
             </div>
             <div className={styles.credsBottomDiv}>
                 <div className="row">
-                    <div className="col">
+                    <div className="col-12 col-lg-4 col-md-4" style={{marginTop:"10px"}}>
                         <div className={styles.innerHolder}>
                             <img src={image_1} alt="" width={148} height={70} />
                             <div className={styles.transHolder}>
@@ -29,16 +29,16 @@ const Credentials = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="col">
+                    <div className="col-12 col-lg-4 col-md-4" style={{marginTop:"10px"}}>
                         <div className={styles.innerHolder}>
                             <img src={image_2} alt="" width={148} height={70} />
                             <div className={styles.transHolder}>
-                                <h3>East African Seed Company</h3>
+                                <h3>East African <br /> Seed Company</h3>
                                 <p>Sale of EASEED</p>
                             </div>
                         </div>
                     </div>
-                    <div className="col">
+                    <div className="col-12 col-lg-4 col-md-4" style={{marginTop:"10px"}}>
                         <div className={styles.innerHolder}>
                             <img src={image_3} alt="" width={148} height={70} />
                             <div className={styles.transHolder}>
