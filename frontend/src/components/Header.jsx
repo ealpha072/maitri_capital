@@ -77,7 +77,7 @@ const Header = () => {
                             <Link className="dropdown-item" to='/sectors'>Services</Link>
                         </div>
                     </div>
-                    <a href="/#">Transactions </a>
+                    <Link to="/credentials">Credentials</Link>
                     <Link to="/knowledge">Knowledge</Link>
                 </div>
             </nav>

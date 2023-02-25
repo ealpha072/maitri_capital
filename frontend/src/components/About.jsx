@@ -1,4 +1,3 @@
-
 import styles from "./styles/About.module.css"
 
 import Banner from "./Banner";

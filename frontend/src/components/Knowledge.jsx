@@ -16,6 +16,8 @@ import image_seven from "../assets/screens/labor_markets_kenya.png"
 import image_eight from "../assets/screens/ecommerce_landscape.png"
 import image_nine from "../assets/screens/investors.png"
 
+//documents
+import doc_one from "../assets/documents/Understanding_The_Kenyan_Startup_Ecosystem_Report.pdf"
 // import knowledgeImg from "../assets/images/knowledge_banner.png"
 
 const Knowledge = () => {
@@ -24,7 +26,8 @@ const Knowledge = () => {
             source:image_one,
             date:"MARCH 2023",
             heading:"Understanding The Kenyan Startup Ecosystem",
-            smallText:"A look at the evolution of the Kenyan Startup Ecosystem"
+            smallText:"A look at the evolution of the Kenyan Startup Ecosystem",
+            link:doc_one
         },
         {
             source:image_two,

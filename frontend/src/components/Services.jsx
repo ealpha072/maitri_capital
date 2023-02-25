@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 export const Services = ({service_array}) => {
   //write a function that generates a random alphanumeric string
   const randomString = () => {
@@ -29,7 +30,7 @@ export const BuildCard = ({img_details, styles}) => {
             <i className="fa fa-clock-o"></i> 
             <span>{img_details.date}</span>
           </p>
-          <a href="/#"><h3>{img_details.heading}</h3></a>
+          <Link to={img_details.link} target="_blank"><h3>{img_details.heading}</h3></Link>
       </div>
     </div>
   )

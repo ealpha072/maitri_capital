@@ -1,4 +1,4 @@
-import React from 'react'
+// import React from 'react'
 import { BrowserRouter as Router, Routes, Route} from 'react-router-dom'
 
 //pages
@@ -14,6 +14,7 @@ import Team from './components/Team'
 import Careers from './components/Careers'
 import Contact from './components/Contact'
 import Knowledge from './components/Knowledge'
+import Credentials from './components/Credentials'
 import Banner from './components/Banner'
 //https://shrouded-dusk-31492.herokuapp.com/
 
@@ -31,6 +32,7 @@ const Home = () => {
             <Route path='/careers' element={ <Careers /> } />
             <Route path='/contact' element={ <Contact /> } />
             <Route path='/knowledge' element={<Knowledge />} />
+            <Route path='/credentials' element={<Credentials />} />
           </Routes>
           <Footer />
         </Router>
