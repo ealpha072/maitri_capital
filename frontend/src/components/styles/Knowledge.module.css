@@ -64,7 +64,13 @@
 }
 
 .knowledgeMain > div:not(:first-child) > div{
+    cursor: pointer;
+    border-radius: 4px;
     overflow: hidden;
+}
+
+.knowledgeMain > div:not(:first-child) > div:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 .knowledgeMain img{

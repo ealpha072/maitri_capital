@@ -22,62 +22,62 @@ const Knowledge = () => {
     const imagesOne = [
         {
             source:image_one,
-            date:"FEBRUARY 2023",
+            date:"MARCH 2023",
             heading:"Understanding The Kenyan Startup Ecosystem",
             smallText:"A look at the evolution of the Kenyan Startup Ecosystem"
         },
         {
             source:image_two,
-            date:"FEBRUARY 2023",
+            date:"FEBRUARY 2021",
             heading:"State of COVID-19 Vaccination and Africa",
             smallText:"A look at the evolution of the Kenyan Startup Ecosystem"
         },
         {
-            source:image_three,
-            date:"MAY 2020",
-            heading:" COVID-19 & The Kenyan Financial Markets",
+            source:image_five,
+            date:"MARCH 2020",
+            heading:"Status and Safety Measures of COVID-19 in East Africa",
             smallText:"A look at the evolution of the Kenyan Startup Ecosystem"
-        }
+        },
     ]
 
     const imagesTwo = [
         {
-            source:image_four,
-            date:"FEBRUARY 2023",
-            heading:"50 Women worldwide who inspired us in 2020",
+            source:image_eight,
+            date:"MARCH 2020",
+            heading:"Kenyan B2C E-commerce Landscape",
             smallText:"A look at the evolution of the Kenyan Startup Ecosystem"
         },
         {
-            source:image_five,
-            date:"FEBRUARY 2023",
-            heading:"Status and Safety Measures of COVID-19 in East Africa",
+            source:image_nine,
+            date:"MARCH 2020",
+            heading:"Why investors Choose East Africa",
             smallText:"A look at the evolution of the Kenyan Startup Ecosystem"
         },
         {
-            source:image_six,
-            date:"FEBRUARY 2023",
-            heading:" The $7.3B Kenyan Retail Market",
+            source:image_seven,
+            date:"MAY 2020",
+            heading:"The Kenyan Labor Market Dynamics",
             smallText:"A look at the evolution of the Kenyan Startup Ecosystem"
         }
     ]
 
     const imagesThree = [
         {
-            source:image_seven,
-            date:"FEBRUARY 2023",
-            heading:"The Kenyan Labor Market Dynamics",
+            source:image_three,
+            date:"MAY 2020",
+            heading:" COVID-19 & The Kenyan Financial Markets",
             smallText:"A look at the evolution of the Kenyan Startup Ecosystem"
         },
         {
-            source:image_eight,
-            date:"FEBRUARY 2023",
-            heading:"Kenyan B2C E-commerce Landscape",
+            source:image_six,
+            date:"SEPTEMBER 2020",
+            heading:" The $7.3B Kenyan Retail Market",
             smallText:"A look at the evolution of the Kenyan Startup Ecosystem"
         },
         {
-            source:image_nine,
-            date:"FEBRUARY 2023",
-            heading:"Why investors Choose East Africa",
+            source:image_four,
+            date:"DECEMBER 2020",
+            heading:"50 Women worldwide who inspired us in 2020",
             smallText:"A look at the evolution of the Kenyan Startup Ecosystem"
         }
     ]

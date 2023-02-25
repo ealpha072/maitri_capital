@@ -25,7 +25,10 @@ export const BuildCard = ({img_details, styles}) => {
     <div className="col-12 col-md-6 col-lg-4">
       <a href="/#"><img src={img_details.source} height="456" width="980" alt="" /></a>
       <div className={styles}>
-          <p><i className="fa fa-clock-o"></i> <span>{img_details.date}</span></p>
+          <p>
+            <i className="fa fa-clock-o"></i> 
+            <span>{img_details.date}</span>
+          </p>
           <a href="/#"><h3>{img_details.heading}</h3></a>
       </div>
     </div>
