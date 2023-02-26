@@ -140,12 +140,15 @@
 .diffMainHolder h3{
     font-size: 1.6rem;
     color: #002855;
-    font-family: Georgia, 'Times New Roman', Times, serif;
     margin-bottom: 0px;
 }
 
 .diffMainHolder ul li{
     font-size: 1.275rem;
+}
+
+.storyLine{
+    margin-bottom: 100px;
 }
 
 @media screen and (max-width:750px){
