@@ -44,8 +44,6 @@
 }
 
 .individualHolder i{
-    display: inline-block ;
-    vertical-align: middle;
     font-size: 4rem;
     padding-bottom: 10px;
     color: #002855;
@@ -155,6 +153,19 @@
         width: 100%;
     }
 
+    .individualHolder h3{
+        font-size: 1rem;
+    }
+
+    .individualHolder ul li{
+        font-size: 0.8rem;
+        width: 60%;
+    }
+
+    .individualHolder i{
+        font-size: 3rem;
+    }
+
     .aboutBottom > div {
         flex-direction: column;
     }
@@ -167,7 +178,51 @@
         width: 100%;
     }
 
+    .diffHolder{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .iconHolder{
+        width:80%;
+        margin: 0px auto 20px;
+        text-align: center;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+
+    .iconHolder i{
+        font-size: 3rem !important;
+    }
+
+    .diffMainHolder{
+        width: 80%;
+        margin: auto;
+    }
+
+    .diffMainHolder h3{
+        width: 50%;
+        margin: auto;
+        font-size: 1.4rem;
+    }
+
+    .diffMainHolder ul li{
+        font-size: 0.8rem;
+        padding-top: 10px;
+    }
+
     .storyLine{
         margin-bottom: 100px;
     }
+    
+    .aboutLeft h3{
+        font-size: 2rem;
+    }
+    
+    .aboutLeft p{
+        text-align: center;
+        width: 90%;
+        margin: 10px auto;
+        font-size: 1.2rem;
+    } 
 }
