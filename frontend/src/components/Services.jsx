@@ -35,3 +35,30 @@ export const BuildCard = ({img_details, styles}) => {
     </div>
   )
 }
+
+export const BuildDiffDiv = ({ diffDetails, styles }) => {
+  	return (
+		<div className={styles[0]}>
+			<div className={styles[1]}>
+				<i className={diffDetails.iconClass}></i>
+			</div>
+			<div className={styles[2]}>
+				<h3>{diffDetails.head}</h3>
+				<ul>
+					{
+						diffDetails.items.map( (item, index) => (
+							<li key={index}>{item}</li>
+						))
+					}
+				</ul>
+			</div>
+		</div>
+  );
+};
+
+
+// We are an independent entity and can provide unbiased and objective strategic advice that reflects and responds to clients’ circumstances, requirements, goals, and aspirations
+// We are not incentivised to sell other products
+// Adhere to the highest professional standards
+// Non-hierarchical and inclusive
+

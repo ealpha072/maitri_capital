@@ -61,7 +61,6 @@
     text-align: justify;
 }
 
-
 /* BOTTOM */
 .aboutBottom{
     width: inherit;
@@ -71,26 +70,16 @@
 .aboutBottom > div{
     width: 90%;
     margin: auto;
+}
+
+.aboutBottom > div:first-child{
     padding-top: 50px;
     padding-bottom: 50px;
 }
 
-.aboutBottom ul{
-    padding-left: 25px;
+.aboutBottom > div:last-child{
+    padding-bottom: 50px;
 }
-
-/* .aboutBottom ul li{
-    list-style-type: disc;
-    margin: 0 0 10px;
-    padding: 0 0 0 15px;
-    font-size: 1.063rem;
-    line-height: 1.625rem;
-}
-
-.aboutBottom ul li::marker{
-    color: var(--hlblue);
-    font-size: larger;
-} */
 
 .aboutLeft{
     width: 60%;
@@ -116,17 +105,44 @@
     font-family: "Georgia",serif;   
 }
 
-/* .aboutRight{
-    width: 30%;
-    padding-top: 60px;
+/* WHAT DIFFS US */
+
+
+.diffHolder{
+    width: 90%;
+    margin: 20px auto;
+    display: flex;
+    color: #000;
 }
 
-.aboutRight p{
-    color: #2bb8e2;
-    font-size: 1.5rem;
-    line-height: 2.125rem;
-    font-family: "Georgia",serif;
-} */
+.iconHolder{
+    width: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.iconHolder i{
+    font-size: 3.5rem !important;
+    color: #002855;
+}
+
+.diffMainHolder{
+    width: 80%;
+}
+
+.diffMainHolder h3{
+    font-size: 1.6rem;
+    color: #002855;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 0px;
+}
+
+.diffMainHolder ul li{
+    font-size: 1.275rem;
+}
+
+/*STORY LINE */
 
 .storyLine{
     margin-top: 30px;
@@ -163,9 +179,9 @@
         flex-direction: column;
     }
 
-    .aboutBottom ul li{
+    /* .aboutBottom ul li{
         font-size: 0.8rem;
-    }
+    } */
 
     .aboutLeft, .aboutRight{
         width: 100%;
