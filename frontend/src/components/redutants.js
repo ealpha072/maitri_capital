@@ -75,3 +75,9 @@
                         </div>
                     </div>
 */
+
+/*<p className="p-about">
+                        Our team of experts is dedicated to providing you with tailor-made solutions 
+                        that meet your unique needs. We understand that every business is different, 
+                        and we take the time to understand your business goals and aspirations. 
+                    </p>*/

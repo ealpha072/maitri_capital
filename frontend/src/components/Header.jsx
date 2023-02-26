@@ -38,11 +38,9 @@ const Header = () => {
                     <div className="dropdown">
                         <a href="/#" className='dropdown-toggle' id="dropdownMenuButton" data-toggle="dropdown" aria-expanded="false">About Us </a>
                         <div className="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                            <Link className="dropdown-item" to='/'>Our Story</Link>
-                            <Link className="dropdown-item" to='/'>What differentiates us</Link>
+                            <Link className="dropdown-item" to='/'>Our Mission</Link>
                             <Link className="dropdown-item" to='/'>Our Values</Link>
-                            <Link className="dropdown-item" to='/'>Our Projects</Link>
-                            <Link className="dropdown-item" to='/'>Careers</Link>
+                            <Link className="dropdown-item" to='/'>What Differentiates Us</Link>
                         </div>
                     </div>
                     <a href="/team">Team </a>

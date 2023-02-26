@@ -1,12 +1,74 @@
+.aboutTop {
+    width: 90%;
+    margin: auto;
+    background-color: #fff;
+    margin-bottom: 20px;
+}
 
-.aboutBottom{
+.aboutTop > div:first-child{
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 60%;
+    margin: auto;
+    text-align: center;
+}
+
+.divider{
+    width: 10%;
+    margin: auto;
+    border-bottom: 2px solid #000;
+}
+
+.valuesDiv{
+    width: 100%;
+    margin: auto;
+}
+
+.missionDiv p:last-child{
+    margin: 20px auto;
+    color: #2bb8e2;
+    font-size: 1.5rem;
+    line-height: 2.125rem;
+    font-family: "Georgia",serif;
+}
+
+
+
+/* HOLDERS FOR INDIVIDUAL */
+/* .individualHolder > *{
+    padding-left: 10px;
+} */
+.individualHolder i{
+    display: inline-block ;
+    vertical-align: middle;
+    font-size: 30px;
+    padding-bottom: 10px;
+}
+
+.individualHolder h3{
+    padding-top: 6px;
+    padding-bottom: 6px;
+    font-size: 1.2rem;
+    color: #2bb8e2;
+    font-weight: 700;
+}
+
+.individualHolder ul li{
+    font-size: 0.875rem;
+    list-style-type: disc;
+    padding: 8px;
+    text-align: justify;
+}
+
+
+/* BOTTOM */
+.aboutBottom{
     width: inherit;
     background-color: #eae9e9;
 }
 
 .aboutBottom > div{
-    display: flex;
     width: 90%;
     margin: auto;
     padding-top: 50px;
@@ -17,7 +79,7 @@
     padding-left: 25px;
 }
 
-.aboutBottom ul li{
+/* .aboutBottom ul li{
     list-style-type: disc;
     margin: 0 0 10px;
     padding: 0 0 0 15px;
@@ -28,14 +90,33 @@
 .aboutBottom ul li::marker{
     color: var(--hlblue);
     font-size: larger;
-}
+} */
 
 .aboutLeft{
     width: 60%;
     margin-right: 40px;
 }
 
-.aboutRight{
+.aboutLeft h3{
+    text-align: center;
+    width: 80%;
+    color: #002855;
+    margin: 10px auto;
+    font-size: 2.5rem;
+    font-family: "Georgia",serif;
+}
+
+.aboutLeft p{
+    text-align: center;
+    width: 70%;
+    margin: 30px auto;
+    color: #2bb8e2;
+    font-size: 1.5rem;
+    line-height: 2.125rem;
+    font-family: "Georgia",serif;   
+}
+
+/* .aboutRight{
     width: 30%;
     padding-top: 60px;
 }
@@ -45,7 +126,7 @@
     font-size: 1.5rem;
     line-height: 2.125rem;
     font-family: "Georgia",serif;
-}
+} */
 
 .storyLine{
     margin-top: 30px;
@@ -73,10 +154,10 @@
 }
 
 @media screen and (max-width:750px){
-    .foundingYear{
+    /* .foundingYear{
         width: 100%;
         text-align: center;
-    }
+    } */
 
     .aboutBottom > div {
         flex-direction: column;
@@ -90,11 +171,11 @@
         width: 100%;
     }
 
-    .aboutRight p{
+    /* .aboutRight p{
         text-align: center;
         font-size: 1.5rem;
         padding-left: 15px;
-    }
+    } */
 
     .storyLine{
         text-align: center;
