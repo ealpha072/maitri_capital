@@ -11,21 +11,53 @@
     overflow: hidden;
 }
 
+
+.founderDiv > div{
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+    margin: auto;
+}
+
 .teamDetails{
-    padding: 20px;
+    text-align: center;
+    margin-top: 20px;
 }
 
-.teamDetails p:first-child{
-    color: #154667;
+.teamDetails a{
+    font-size: 1.2rem;
+    font-weight: 500;
     font-family: "Georgia",serif;
-    margin-bottom: 5px;
-    transition: color .5s;
+    padding-bottom: 10px;
 }
 
-.teamDetails p:last-child{
-    color: #4d4f53;
+.teamDetails p{
+    color: #000;
     font-size: .938rem;
     line-height: 1.063rem;
-    font-weight: 400;
+    font-weight: 500;
     margin-bottom: 5px;
 }
+
+.founderHolder{
+    width: 90%;
+    margin: 20px auto 150px;
+    background-color: #fff;
+    margin-top: 20px;
+}
+
+.founderHolder > div {
+    width: 75%;
+}
+
+.founderHolder > div p:not(:first-child){
+    font-size: 1.2rem;
+    line-height: 1.875rem;
+    color: #154667;
+    font-family: "Georgia",serif;
+    margin-bottom: 10px;
+    padding-left: 25px;
+}
+
+
+/* sector-brief about-top */

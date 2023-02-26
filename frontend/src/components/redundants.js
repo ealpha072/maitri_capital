@@ -108,3 +108,47 @@
 					principles are the key to our success, and we will continue to
 					uphold them as we grow and expand in the years to come.
 					</p>*/
+
+
+
+
+          /*<div className={styles.teamPics}>
+          <div className="row">
+              <div className="col">
+                  <img src={avatar} alt="" />
+                  <div className={styles.teamDetails}>
+                      <p className="team-name">Lorem Ipsum</p>
+                      <p className="team-title">Founder, CEO</p>
+                  </div>
+              </div>
+              <div className="col">
+                  <img src={avatar} alt="" />
+                  <div className={styles.teamDetails}>
+                      <p className="team-name">Lorem Ipsum</p>
+                      <p className="team-title">Founder, CEO</p>
+                  </div>
+              </div>
+              <div className="col">
+                  <img src={avatar} alt="" />
+                  <div className={styles.teamDetails}>
+                      <p className="team-name">Lorem Ipsum</p>
+                      <p className="team-title">Founder, CEO</p>
+                  </div>
+              </div>
+              <div className="col">
+                  <img src={avatar} alt="" />
+                  <div className={styles.teamDetails}>
+                      <p className="team-name">Lorem Ipsum</p>
+                      <p className="team-title">Founder, CEO</p>
+                  </div>
+              </div>
+              <div className="col">
+                  <img src={avatar} alt="" />
+                  <div className={styles.teamDetails}>
+                      <p className="team-name">Lorem Ipsum</p>
+                      <p className="team-title">Founder, CEO</p>
+                  </div>
+              </div>
+          </div>
+          <div className="row"></div>
+      </div>*/

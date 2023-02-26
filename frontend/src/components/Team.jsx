@@ -1,4 +1,4 @@
-import React from 'react'
+import { Link } from 'react-router-dom';
 import Banner from './Banner';
 import styles from './styles/Team.module.css'
 
@@ -15,21 +15,12 @@ const Team = () => {
             <div className="sector-expl about-p">
                 <p className="front-p">Team</p>
                 <p className="p-about">
-                    At Maitri Capital, we believe that our team is what sets us apart from our competitors. 
-                    Our team of 10 proffessionals includes some of the most talented and experienced professionals 
-                    in the African investment and corporate advisory space. Each team member brings a unique set of skills 
-                    and experiences to the table, and together, we are able to provide our clients with an unparalleled level 
-                    of expertise and support.
-                </p>
-                <p className="aside-sectors" style={{ paddingLeft: "25px" }}>
-                    Our team is not only highly skilled, but also deeply committed 
-                    to our clients and to each other. We work closely together to ensure 
-                    that we are delivering the best possible outcomes for our clients, 
-                    and we are always willing to go above and beyond to ensure their success.
-                </p>
-                <p className="aside-sectors" style={{ paddingLeft: "25px" }}>
-                    It is this level of commitment and teamwork that has helped us 
-                    establish ourselves as a trusted partner for investors in Africa.
+                    Maitri Capital was founded by Poonam Vora and Neha Shah on the 
+                    belief that infusing capital, talent, and know-how into local African 
+                    companies can result in long-term economic development in their respective 
+                    countries and across Africa. They wanted to shift the perception of finance from 
+                    one of fierce competition in which the provider of capital wins to one in which 
+                    everyone wins - one that is inclusive, sustainable, and equitable.
                 </p>
             </div>
             <div className="sector-count">
@@ -37,45 +28,90 @@ const Team = () => {
                 <p className="core-ind">Proffesionals working to deliver results</p>
             </div>
         </div>
-        <div className={styles.teamPics}>
-            <div className="row">
-                <div className="col">
-                    <img src={avatar} alt="" />
+
+        <div className={styles.founderDiv}>
+            <div>
+                <div className="neha">
+                    <img src={avatar} alt="" width={200} height={200} />
                     <div className={styles.teamDetails}>
-                        <p className="team-name">Lorem Ipsum</p>
-                        <p className="team-title">Founder, CEO</p>
+                        <a 
+                            href='https://www.linkedin.com/in/poonam-vora-547b9242/?originalSubdomain=ke' 
+                            target="blank" 
+                            rel="noreferrer"
+                        >
+                            Poonam Vora
+                        </a>
+                        <p className="team-title">Co-Founder, <br /> Managing Director</p>
                     </div>
                 </div>
-                <div className="col">
-                    <img src={avatar} alt="" />
+
+                <div className="poonam">
+                    <img src={avatar} alt="" width={200} height={200} />
                     <div className={styles.teamDetails}>
-                        <p className="team-name">Lorem Ipsum</p>
-                        <p className="team-title">Founder, CEO</p>
-                    </div>
-                </div>
-                <div className="col">
-                    <img src={avatar} alt="" />
-                    <div className={styles.teamDetails}>
-                        <p className="team-name">Lorem Ipsum</p>
-                        <p className="team-title">Founder, CEO</p>
-                    </div>
-                </div>
-                <div className="col">
-                    <img src={avatar} alt="" />
-                    <div className={styles.teamDetails}>
-                        <p className="team-name">Lorem Ipsum</p>
-                        <p className="team-title">Founder, CEO</p>
-                    </div>
-                </div>
-                <div className="col">
-                    <img src={avatar} alt="" />
-                    <div className={styles.teamDetails}>
-                        <p className="team-name">Lorem Ipsum</p>
-                        <p className="team-title">Founder, CEO</p>
+                        <a href="https://www.linkedin.com/in/neha-shah-a057b31/" target="blank" rel="noreferrer">Neha Shah</a>
+                        <p className="team-title">Co-Founder, <br /> Managing Director</p>
                     </div>
                 </div>
             </div>
-            <div className="row"></div>
+        </div>
+
+        <div className={styles.founderHolder}>
+            <div>
+                <p className="front-p">Poonam Vora</p>
+                <p>
+                    Poonam has over 20 years of experience in Corporate Finance,
+                    M&A, Transaction Services, Research and Advisory services.
+                    She began her career as an Actuarial Analyst with Alexander Forbes 
+                    Financial Services (thereafter renamed to Zamara Financial Services) 
+                    after obtaining a degree in Actuarial Science from City University (UK). 
+                </p>
+                <p>
+                    She gained significant experience in the pensions, insurance (general and healthcare) 
+                    industry in Kenya over 3 years. This experience was augmented in the UK as a Protection 
+                    Product and Deputy Investment Manager with Bradford and Bingley. She also has over 10 years 
+                    of Corporate Finance, Advisory and Research experience having worked at Dyer and Blair Investment Bank, 
+                    where she was involved in the largest IPOs in Kenya, including Kenya- Re and Safaricom; 
+                    and Stratlink Africa, where she was instrumental in deal sourcing, conducting due diligence,
+                    leading research and a key member of the deal advisory team. 
+                </p>
+                <p>
+                    She is also the Co-Founder of Rafiki Ventures, a Venture Investment Company. 
+                    Poonam is also an active angel investor in startups in Africa. Poonam sits on the 
+                    Board of Directors of Jubilee Financial Services Limited, a fund manager managing assets for 
+                    several institutions. She chairs the risk and audit committee.
+                </p>
+            </div>
+            
+            <div>
+                <p className="front-p">Neha Shah</p>
+                <p>
+                    Neha has over 20 years of experience in Private Equity, Corporate Finance, M&A, 
+                    Transaction Services, Research, Accounting, Tax and Advisory services. 
+                    Neha has worked extensively in African private equity and investment banking for 
+                    several leading global organizations. She also spent considerable time on the ground, 
+                    leading the transformation of the family business in African financial services in Kenya. 
+                    She began her career with KPMG in London, where she trained as a Chartered Accountant (ICAEW). 
+                </p>
+                <p>
+                    She then worked in investment banking for Lexicon Partners (now Evercore Partners)' award-winning 
+                    UK energy and infrastructure team, as well as Dresdner Kleinwort's UK M&A team (now Commerzbank). 
+                    Following that Neha worked with Norfund, an emerging markets Development Finance Institute backed by 
+                    the Norwegian Government, focusing on principal investments in Eastern Africa; as well as Actis, 
+                    one of the largest emerging markets private equity funds, where she focused on Energy and 
+                    Infrastructure investments especially in Africa.
+                </p>
+                <p>
+                    Neha is also a Co-founder at Rafiki Ventures, 
+                    a Venture Investment Company. Neha holds a Master’s degree in Economics from the University of 
+                    Cambridge, where she was on scholarship as a Commonwealth Scholar. She also holds an MBA from INSEAD, 
+                    where she was a Goldman Sachs scholar, graduated with distinction, and was also elected President of 
+                    the INSEAD Africa Society. Neha was awarded Top 40 under 40 Women by the Business Daily in Kenya. 
+                    Neha was a member of Investor’s Circle’s Global Health Advisory Board, one of the largest impact 
+                    investor networks, where she advised on global healthcare opportunities including Africa. 
+                    She was also a member of the Economic Council of Oshwals’ in Kenya. She sits on the Board of several 
+                    private owned businesses in Africa and UK.
+                </p>
+            </div>
         </div>
     </div>
   );
