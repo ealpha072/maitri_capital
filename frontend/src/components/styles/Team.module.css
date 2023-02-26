@@ -1,6 +1,22 @@
-.teamPics img{
-    width: 60%;
-    max-width: 100%;
+.empCount{
+    padding-top: 20px;
+    margin-top: 4%;
+    margin-right: 10%;
+    text-align: center;
+}
+
+.empCount h3{
+    font-size: 2.5rem;
+    line-height: 2.5rem;
+    letter-spacing: -3px;
+    color: #154667;
+    font-family: "Georgia",serif;
+    margin-bottom: 10px;
+}
+
+.empCount p{
+    font-size: 1rem;
+    line-height: 1.625rem;
 }
 
 .teamPics > div{
@@ -33,7 +49,7 @@
 
 .teamDetails p{
     color: #000;
-    font-size: .938rem;
+    font-size: 0.938rem;
     line-height: 1.063rem;
     font-weight: 500;
     margin-bottom: 5px;
@@ -50,6 +66,15 @@
     width: 75%;
 }
 
+.founderHolder > div p:first-child{
+    font-size: 1.875rem;
+    line-height: 2.375rem;
+    letter-spacing: -1px;
+    color:var(--hlblue);
+    padding: 10px 25px 0 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
 .founderHolder > div p:not(:first-child){
     font-size: 1.2rem;
     line-height: 1.875rem;
@@ -59,5 +84,23 @@
     padding-left: 25px;
 }
 
+@media screen and (max-width:750px){
+    .founderDiv > div{
+        flex-direction: column;
+    }
 
-/* sector-brief about-top */
+    .founderHolder{
+        margin-bottom: 50px;
+    }
+    .founderHolder > div {
+        width: 100%;
+    }
+
+    .founderHolder > div p:not(:first-child){
+        font-size: 1rem;
+    }
+
+    .founderHolder > div p:first-child{
+        font-size: 1.6rem;
+    }
+}

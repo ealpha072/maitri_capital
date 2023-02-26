@@ -37,35 +37,38 @@
     font-family: "Georgia",serif;
 }
 
-
-
 /* HOLDERS FOR INDIVIDUAL */
-/* .individualHolder > *{
-    padding-left: 10px;
-} */
+.individualHolder{
+    margin-top: 20px;
+    text-align: center;
+}
+
 .individualHolder i{
     display: inline-block ;
     vertical-align: middle;
-    font-size: 30px;
+    font-size: 4rem;
     padding-bottom: 10px;
+    color: #002855;
 }
 
 .individualHolder h3{
     padding-top: 6px;
     padding-bottom: 6px;
-    font-size: 1.2rem;
+    font-size: 1.6rem;
     color: #2bb8e2;
-    font-weight: 700;
+    font-weight: 500;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .individualHolder ul li{
-    width: 95%;
-    font-size: 1rem;
+    width: 80%;
+    margin: auto;
+    font-size: 1.1rem;
     color: #000;
     text-indent: -4px;
-    list-style-type: disc;
+    /* list-style-type: disc; */
     padding: 4px;
-    text-align: left;
+    /* text-align: left; */
 }
 
 /* BOTTOM */
@@ -113,8 +116,6 @@
 }
 
 /* WHAT DIFFS US */
-
-
 .diffHolder{
     width: 90%;
     margin: 20px auto;
@@ -149,74 +150,24 @@
     font-size: 1.275rem;
 }
 
-/*STORY LINE */
-
-.storyLine{
-    margin-top: 30px;
-    margin-bottom: 150px;
-    background-color: #fff;
-}
-
-.storyLine > div{
-    width: 94%;
-    margin: auto;
-}
-
-.storyLine > div > p:first-child{
-    font-size: 1.875rem;
-    line-height: 2.375rem;
-    letter-spacing: -1px;
-    color:var(--hlblue);
-    padding: 10px 25px 0 25px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-}
-
-.storyLine > div p:not(:first-child) {
-    width: 80%;
-    padding-left: 25px;
-}
-
 @media screen and (max-width:750px){
-    /* .foundingYear{
+    .aboutTop > div:first-child{
         width: 100%;
-        text-align: center;
-    } */
+    }
 
     .aboutBottom > div {
         flex-direction: column;
     }
 
-    /* .aboutBottom ul li{
-        font-size: 0.8rem;
-    } */
+    .missionDiv p:last-child{
+        font-size: 1.2rem;
+    }
 
     .aboutLeft, .aboutRight{
         width: 100%;
     }
 
-    /* .aboutRight p{
-        text-align: center;
-        font-size: 1.5rem;
-        padding-left: 15px;
-    } */
-
     .storyLine{
-        text-align: center;
         margin-bottom: 100px;
-    }
-
-    .storyLine > div{
-        width: 90%;
-        margin: auto;
-    }
-
-    .storyLine > div > p:first-child, 
-    .storyLine > div > p:not(:first-child){
-        width: 90%;
-        margin: 10px auto;
-        padding-left: 0;
-    }
-    .storyLine > div > p:not(:first-child){
-        font-size: 0.8rem;
     }
 }

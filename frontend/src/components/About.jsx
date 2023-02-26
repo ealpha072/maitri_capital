@@ -75,7 +75,7 @@ const About = () => {
 				mainText={text}
 				shortText={shortText}
 			/>
-			
+
 			<div className={styles.aboutTop}>
 				<div className={styles.missionDiv}>
 					<p className="front-p">Our Mission</p>
@@ -94,7 +94,7 @@ const About = () => {
 			<div className={styles.aboutTop}>
 				<div className={styles.missionDiv}>
 					<p className="front-p">Our Values</p>
-					<p className="">
+					<p>
 						"Our values define us as individuals and as a company. <br /> We uphold
 						them in every conversation, meeting, and transaction."
 					</p>
@@ -102,91 +102,94 @@ const About = () => {
 
 				<div className={styles.valuesDiv}>
 					<div className="row">
-					<div className={`col ${styles.individualHolder}`}>
-						<i className="fa fa-handshake-o"></i>
-						<h3>Honesty & Integrity</h3>
-						<ul>
-						<li>We strive to do the right thing.</li>
-						<li>
-							We earn trust by doing excellent work and keeping our
-							promises to our clients. This includes dealing honestly and
-							ethically both internally and with our clients. Our word is
-							our bond.
-						</li>
-						</ul>
-					</div>
+						<div className={`col-sm-12 col-lg-4 ${styles.individualHolder}`}>
+							<i className="fa fa-handshake-o"></i>
+							<h3>Honesty & Integrity</h3>
+							<ul>
+							<li>We strive to do the right thing.</li>
+							<li>
+								We earn trust by doing excellent work and keeping our
+								promises to our clients. This includes dealing honestly and
+								ethically both internally and with our clients. Our word is
+								our bond.
+							</li>
+							</ul>
+						</div>
 
-					<div className={`col ${styles.individualHolder}`}>
-						<i className="fa fa-certificate"></i>
-						<h3>Excellence</h3>
-						<ul>
-						<li>We deliver uncompromising quality.</li>
-						<li>
-							We set the bar high for the standards we expect our people
-							to meet.
-						</li>
-						<li>
-							And we take every opportunity to consistently deliver
-							unmatched value for our clients.
-						</li>
-						</ul>
-					</div>
+						<div className={`col-sm-12 col-lg-4 ${styles.individualHolder}`}>
+							<i className="fa fa-certificate"></i>
+							<h3>Excellence</h3>
+							<ul>
+							<li>We deliver uncompromising quality.</li>
+							<li>
+								We set the bar high for the standards we expect our people
+								to meet.
+							</li>
+							<li>
+								And we take every opportunity to consistently deliver
+								unmatched value for our clients.
+							</li>
+							</ul>
+						</div>
 
-					<div className={`col ${styles.individualHolder}`}>
-						<i className="fa fa-handshake-o"></i>
-						<h3>Commitment</h3>
-						<ul>
-						<li>We go the extra mile.</li>
-						<li>
-							Our markets are challenging, but we remain tenacious and
-							steadfast.{" "}
-						</li>
-						<li>
-							Our team is committed to providing the best possible service
-							to our clients, recognizing that each client is unique and
-							the reason for our existence.
-						</li>
-						</ul>
+						<div className={`col-sm-12 col-lg-4 ${styles.individualHolder}`}>
+							<i className="fa fa-handshake-o"></i>
+							<h3>Commitment</h3>
+							<ul>
+							<li>We go the extra mile.</li>
+							<li>
+								Our markets are challenging, but we remain tenacious and
+								steadfast.
+							</li>
+							<li>
+								Our team is committed to providing the best possible service
+								to our clients, recognizing that each client is unique and
+								the reason for our existence.
+							</li>
+							</ul>
+						</div>
 					</div>
+					<div className="row">
+						<div className={`col-sm-12 col-lg-3 ${styles.individualHolder}`}></div>
+						<div className={`col-sm-12 col-lg-3 ${styles.individualHolder}`}>
+							<i className="fa fa-thumbs-up"></i>
+							<h3>Courage</h3>
+							<ul>
+							<li>We are bold.</li>
+							<li>
+								We work in some of the world’s most difficult environments
+								and on complex problems{" "}
+							</li>
+							<li>
+								We challenge conventional thinking, go beyond typical
+								approaches and embrace innovative ideas to advise on our
+								clients’ most complex problems.
+							</li>
+							</ul>
+						</div>
 
-					<div className={`col ${styles.individualHolder}`}>
-						<i className="fa fa-thumbs-up"></i>
-						<h3>Courage</h3>
-						<ul>
-						<li>We are bold.</li>
-						<li>
-							We work in some of the world’s most difficult environments
-							and on complex problems{" "}
-						</li>
-						<li>
-							We challenge conventional thinking, go beyond typical
-							approaches and embrace innovative ideas to advise on our
-							clients’ most complex problems.
-						</li>
-						</ul>
-					</div>
-
-					<div className={`col ${styles.individualHolder}`}>
-						<i className="fa fa-users"></i>
-						<h3>Inclusivity</h3>
-						<ul>
-						<li>We have a duty to our people, communities and planet.</li>
-						<li>
-							Our people are our assets. We understand that leveraging the
-							strengths of people from diverse backgrounds and experiences
-							is critical to our ability to serve our clients while also
-							building a firm where our employees can grow and thrive.
-						</li>
-						<li>
-							We strive to have an impact that extends beyond the scope of
-							our client relationships. We want to make a difference in
-							the communities where we live and work. We care about the
-							environment and work hard to reduce our carbon footprint
-							both professionally and personally.
-						</li>
-						<li>We pledge to do no harm.</li>
-						</ul>
-					</div>
+						<div className={`col-sm-12 col-lg-3 ${styles.individualHolder}`}>
+							<i className="fa fa-users"></i>
+							<h3>Inclusivity</h3>
+							<ul>
+							<li>We have a duty to our people, communities and planet.</li>
+							<li>
+								Our people are our assets. We understand that leveraging the
+								strengths of people from diverse backgrounds and experiences
+								is critical to our ability to serve our clients while also
+								building a firm where our employees can grow and thrive.
+							</li>
+							{/* <li>
+								We strive to have an impact that extends beyond the scope of
+								our client relationships. We want to make a difference in
+								the communities where we live and work. We care about the
+								environment and work hard to reduce our carbon footprint
+								both professionally and personally.
+							</li>
+							<li>We pledge to do no harm.</li> */}
+							</ul>
+						</div>
+						<div className={`col-sm-12 col-lg-3 ${styles.individualHolder}`}></div>
 					</div>
 				</div>
 			</div>
@@ -236,7 +239,6 @@ const About = () => {
 
 			<div className={styles.storyLine}>
 				<div>
-					
 				</div>
 			</div>
 		</div>

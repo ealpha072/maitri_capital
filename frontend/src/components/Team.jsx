@@ -1,4 +1,3 @@
-import { Link } from 'react-router-dom';
 import Banner from './Banner';
 import styles from './styles/Team.module.css'
 
@@ -22,16 +21,25 @@ const Team = () => {
                     one of fierce competition in which the provider of capital wins to one in which 
                     everyone wins - one that is inclusive, sustainable, and equitable.
                 </p>
+                <p className="p-about">
+                    The team is supplemented with professionally qualified members 
+                    from a wide range of diverse backgrounds in Africa and beyond. 
+                    Each member is committed to building long-term value for our 
+                    clients and driven by a passion for Africa. This is translated 
+                    into every relationship with our clients through integrity, 
+                    expert advice and going above and beyond.
+                </p>
             </div>
-            <div className="sector-count">
-                <p className="statistic">10</p>
-                <p className="core-ind">Proffesionals working to deliver results</p>
+
+            <div className={styles.empCount}>
+                <h3>10</h3>
+                <p>Proffesionals working <br /> to deliver results</p>
             </div>
         </div>
 
         <div className={styles.founderDiv}>
             <div>
-                <div className="neha">
+                <div className={styles.teamPics}>
                     <img src={avatar} alt="" width={200} height={200} />
                     <div className={styles.teamDetails}>
                         <a 
@@ -45,7 +53,7 @@ const Team = () => {
                     </div>
                 </div>
 
-                <div className="poonam">
+                <div className={styles.teamPics}>
                     <img src={avatar} alt="" width={200} height={200} />
                     <div className={styles.teamDetails}>
                         <a href="https://www.linkedin.com/in/neha-shah-a057b31/" target="blank" rel="noreferrer">Neha Shah</a>
@@ -57,7 +65,7 @@ const Team = () => {
 
         <div className={styles.founderHolder}>
             <div>
-                <p className="front-p">Poonam Vora</p>
+                <p>Poonam Vora</p>
                 <p>
                     Poonam has over 20 years of experience in Corporate Finance,
                     M&A, Transaction Services, Research and Advisory services.
@@ -83,7 +91,7 @@ const Team = () => {
             </div>
             
             <div>
-                <p className="front-p">Neha Shah</p>
+                <p>Neha Shah</p>
                 <p>
                     Neha has over 20 years of experience in Private Equity, Corporate Finance, M&A, 
                     Transaction Services, Research, Accounting, Tax and Advisory services. 
