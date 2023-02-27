@@ -28,7 +28,7 @@ const Knowledge = () => {
             heading:"Understanding The Kenyan Startup Ecosystem",
             smallText:"A look at the evolution of the Kenyan Startup Ecosystem",
             link:doc_one,
-            moreMaterials:"/case_studies"
+            moreMaterials:"case_studies"
         },
         {
             source:image_two,

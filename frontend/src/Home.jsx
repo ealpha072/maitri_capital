@@ -34,7 +34,7 @@ const Home = () => {
             <Route path='/contact' element={ <Contact /> } />
             <Route path='/knowledge' element={<Knowledge />} />
             <Route path='/credentials' element={<Credentials />} />
-            <Route path='/case_studies' element={<Casestudy />} />
+            <Route path='knowledge/case_studies' element={<Casestudy />} />
           </Routes>
           <Footer />
         </Router>
