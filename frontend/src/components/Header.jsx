@@ -76,7 +76,15 @@ const Header = () => {
                         </div>
                     </div>
                     <Link to="/credentials">Credentials</Link>
-                    <Link to="/knowledge">Knowledge</Link>
+                    <div className="dropdown">
+                        <a href="/#" className='dropdown-toggle' id="dropdownMenuButtonKnowledge" data-toggle="dropdown" aria-expanded="false">Knowledge </a>
+                        <div className="dropdown-menu" aria-labelledby="dropdownMenuButtonKnowledge">
+                            <Link className="dropdown-item" to="/knowledge">Knowledge</Link>
+                            <div class="dropdown-divider"></div>
+                            <Link className="dropdown-item" to="/knowledge/case_studies">Case Studies</Link>
+                            <Link className="dropdown-item" href="/#">Publications</Link>
+                        </div>
+                    </div>
                 </div>
             </nav>
         </header>
