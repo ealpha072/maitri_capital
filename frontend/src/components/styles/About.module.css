@@ -99,7 +99,9 @@
     width: 80%;
     color: #002855;
     margin: 10px auto;
-    font-size: 2.5rem;
+    font-size: 1.875rem;
+    line-height: 2.375rem;
+    letter-spacing: -1px;
     font-family: "Georgia",serif;
 }
 
@@ -134,17 +136,20 @@
 }
 
 .diffMainHolder{
-    width: 80%;
+    width: 60%;
 }
 
 .diffMainHolder h3{
-    font-size: 1.6rem;
+    font-size: 1.425rem;
     color: #002855;
     margin-bottom: 0px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .diffMainHolder ul li{
-    font-size: 1.275rem;
+    font-size: 1.2rem;
+    line-height: 1.875rem;
+    font-family: "Georgia",serif;
 }
 
 .storyLine{
@@ -156,12 +161,16 @@
         width: 100%;
     }
 
+    .divider{
+        width: 25%;
+    }
+
     .individualHolder h3{
         font-size: 1rem;
     }
 
     .individualHolder ul li{
-        font-size: 0.8rem;
+        font-size: 1rem;
         width: 60%;
     }
 
@@ -219,7 +228,7 @@
     }
     
     .aboutLeft h3{
-        font-size: 2rem;
+        font-size: 1.8rem;
     }
     
     .aboutLeft p{

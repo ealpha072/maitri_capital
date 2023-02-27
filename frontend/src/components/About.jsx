@@ -5,11 +5,6 @@ import Banner from "./Banner";
 import banner_9 from "../assets/banners/banner_9.jpg"
 import banner_10 from "../assets/banners/banner_10.jpg"
 
-// We exercise the utmost discretion and integrity at all times
-// We address clients’ corporate finance, capital markets and strategic advisory needs, while keeping the company affairs strictly confidential
-// Our corporate culture is built on integrity, professional principles and respect
-
-
 const About = () => {
    	const text = `Independent, Client-Focused Impact, Investment, 
 	and Corporate Advisory and Research for Africa`
@@ -95,7 +90,7 @@ const About = () => {
 				<div className={styles.missionDiv}>
 					<p className="front-p">Our Values</p>
 					<p>
-						"Our values define us as individuals and as a company. <br /> We uphold
+						"Our values define us as individuals and as a company. We uphold
 						them in every conversation, meeting, and transaction."
 					</p>
 				</div>
@@ -120,15 +115,15 @@ const About = () => {
 							<i className="fa fa-certificate"></i>
 							<h3>Excellence</h3>
 							<ul>
-							<li>We deliver uncompromising quality.</li>
-							<li>
-								We set the bar high for the standards we expect our people
-								to meet.
-							</li>
-							<li>
-								And we take every opportunity to consistently deliver
-								unmatched value for our clients.
-							</li>
+								<li>We deliver uncompromising quality.</li>
+								<li>
+									We set the bar high for the standards we expect our people
+									to meet.
+								</li>
+								<li>
+									And we take every opportunity to consistently deliver
+									unmatched value for our clients.
+								</li>
 							</ul>
 						</div>
 
@@ -136,16 +131,16 @@ const About = () => {
 							<i className="fa fa-handshake-o"></i>
 							<h3>Commitment</h3>
 							<ul>
-							<li>We go the extra mile.</li>
-							<li>
-								Our markets are challenging, but we remain tenacious and
-								steadfast.
-							</li>
-							<li>
-								Our team is committed to providing the best possible service
-								to our clients, recognizing that each client is unique and
-								the reason for our existence.
-							</li>
+								<li>We go the extra mile.</li>
+								<li>
+									Our markets are challenging, but we remain tenacious and
+									steadfast.
+								</li>
+								<li>
+									Our team is committed to providing the best possible service
+									to our clients, recognizing that each client is unique and
+									the reason for our existence.
+								</li>
 							</ul>
 						</div>
 					</div>
@@ -155,16 +150,16 @@ const About = () => {
 							<i className="fa fa-thumbs-up"></i>
 							<h3>Courage</h3>
 							<ul>
-							<li>We are bold.</li>
-							<li>
-								We work in some of the world’s most difficult environments
-								and on complex problems{" "}
-							</li>
-							<li>
-								We challenge conventional thinking, go beyond typical
-								approaches and embrace innovative ideas to advise on our
-								clients’ most complex problems.
-							</li>
+								<li>We are bold.</li>
+								<li>
+									We work in some of the world’s most difficult environments
+									and on complex problems{" "}
+								</li>
+								<li>
+									We challenge conventional thinking, go beyond typical
+									approaches and embrace innovative ideas to advise on our
+									clients’ most complex problems.
+								</li>
 							</ul>
 						</div>
 
@@ -207,22 +202,6 @@ const About = () => {
 				</div>
 				
 				<div className={styles.different}>
-					<div className={styles.diffHolder}>
-						<div className={styles.iconHolder}>
-							<i className="fa fa-clock-o"></i>
-						</div>
-						<div className={styles.diffMainHolder}>
-							<h3>Relationship Driven</h3>
-							<ul>
-								<li>
-									Our senior directors are personally involved with every 
-									client discussion and project
-									We fully grasp and internalise clients’ goals
-									Promote understanding and purpose in all endeavours
-									We manage client and firm resources cost-effectively</li>
-							</ul>
-						</div>
-					</div>
 					{
 						diffDivs.map((item, index) => (
 

@@ -78,10 +78,13 @@
     }
 
     .paragraphOne{
-        font-size: 1.2rem;
+        font-size: 1.8rem;
+        line-height: 1.825rem;
     }
 
     .paragraphTwo{
         font-size: 0.8rem;
+        padding-right: 25px;
+        padding-bottom: 10px;
     }
 }
