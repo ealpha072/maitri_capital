@@ -21,21 +21,25 @@ export const Services = ({service_array}) => {
   );
 }
 
-export const BuildCard = ({img_details, styles}) => {
-  return(
-    <div className="col-12 col-md-6 col-lg-4">
-      <a href="/#"><img src={img_details.source} height="456" width="980" alt="" /></a>
-      <div className={styles}>
-          <p>
-            <i className="fa fa-clock-o"></i> 
-            <span>{img_details.date}</span>
-          </p>
-          <Link to={img_details.link} target="_blank"><h3>{img_details.heading}</h3></Link>
-          <Link to={img_details.moreMaterials}>View More Materials</Link>
-      </div>
-    </div>
-  )
-}
+export const BuildCard = ({ img_details, styles }) => {
+  	return (
+		<div className="col-12 col-md-6 col-lg-4">
+			<Link to={img_details.link} target="_blank">
+				<img src={img_details.source} height="456" width="980" alt="" />
+				<div className={styles}>
+					<p>
+						<i className="fa fa-clock-o"></i>
+						<span>{img_details.date}</span>
+					</p>
+					<Link to={img_details.link} target="_blank">
+						<h3>{img_details.heading}</h3>
+					</Link>
+					<Link to={img_details.moreMaterials}>View More Materials</Link>
+				</div>
+			</Link>
+		</div>
+  	);
+};
 
 export const BuildCaseStudyDiv = ({ caseDetails, styles}) => {
   const link = caseDetails.ytLink ? <Link to={caseDetails.ytLink} target="_blank">Youtube Link</Link> : null
