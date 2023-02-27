@@ -27,7 +27,8 @@ const Knowledge = () => {
             date:"MARCH 2023",
             heading:"Understanding The Kenyan Startup Ecosystem",
             smallText:"A look at the evolution of the Kenyan Startup Ecosystem",
-            link:doc_one
+            link:doc_one,
+            moreMaterials:"/case_studies"
         },
         {
             source:image_two,
@@ -89,7 +90,6 @@ const Knowledge = () => {
     return (
         <div className="knowledgeContainer">
             <Banner backgroundImg={banner_10} extraImg={banner_9}  shortText={text} />
-            
             <div className={styles.knowledgeHead}>
                 <h3>Knowledge </h3>
             </div>

@@ -31,7 +31,21 @@ export const BuildCard = ({img_details, styles}) => {
             <span>{img_details.date}</span>
           </p>
           <Link to={img_details.link} target="_blank"><h3>{img_details.heading}</h3></Link>
+          <Link to={img_details.moreMaterials}>View More Materials</Link>
       </div>
+    </div>
+  )
+}
+
+export const BuildCaseStudyDiv = ({ caseDetails, styles}) => {
+  const link = caseDetails.ytLink ? <Link to={caseDetails.ytLink} target="_blank">Youtube Link</Link> : null
+  return(
+    <div className="col-12 col-md-6 col-lg-4">
+        <Link href="/#"><img src={caseDetails.source} height="256" width="880" alt="" /></Link >
+        <div className={styles}>
+            <Link to={caseDetails.link} target="_blank"><h3>{caseDetails.heading}</h3></Link>
+            {link}
+        </div>
     </div>
   )
 }
@@ -55,5 +69,7 @@ export const BuildDiffDiv = ({ diffDetails, styles }) => {
 		</div>
   );
 };
+
+
 
 

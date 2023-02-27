@@ -1,5 +1,4 @@
-import React from 'react'
-import document_one from "../assets/documents/health.pdf"
+// import document_one from "../assets/documents/health.pdf"
 import styles from './styles/Services.module.css'
 
 const Research = () => {
@@ -25,7 +24,7 @@ const Research = () => {
                                 <span>February 3, 2023 - </span>A look at the evolution of the 
                                 Kenyan Startup ecosystem for the past decade. 
                             </p>
-                            <a href={document_one} target="_blank" rel='noreferrer'>
+                            <a href="/#" target="_blank" rel='noreferrer'>
                                 <i className='fa fa-download'></i> Download...
                             </a>
                         </div>
