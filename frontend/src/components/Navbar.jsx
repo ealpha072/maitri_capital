@@ -43,13 +43,13 @@ const Navbar = ({Logo}) => {
                         <Link className="nav-link" to='sectors' onClick={handleClick}>Industry Coverage</Link>
                     </li>
                     <li className="nav-item">
-                        <Link className="nav-link" to='' onClick={handleClick}>Transactions</Link>
+                        <Link className="nav-link" to='/credentials' onClick={handleClick}>Credentials</Link>
                     </li>
                     <li className="nav-item">
-                        <Link className="nav-link" to='' onClick={handleClick}>Knowleldge</Link>
+                        <Link className="nav-link" to='/knowledge' onClick={handleClick}>Knowledge</Link>
                     </li>
                     <li className="nav-item">
-                        <Link className="nav-link" to='' onClick={handleClick}>Contact us</Link>
+                        <Link className="nav-link" to='/contact' onClick={handleClick}>Contact us</Link>
                     </li>
                     <li className="nav-item">
                         <Link className="nav-link" to='' onClick={handleClick}>Careers</Link>

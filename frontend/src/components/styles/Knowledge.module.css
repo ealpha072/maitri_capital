@@ -1,61 +1,27 @@
-.knowledgeTop{
-    width: 90%;
-    margin: 50px auto;
-}
-
-
-.knowledgeTop p:first-child{
-    font-size: 1.875rem;
-    line-height: 2.375rem;
-    letter-spacing: -1px;
-    color:var(--hlblue);
-    padding: 10px 25px 0 25px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-}
-
-.knowledgeTop p:last-child{
-    width: 80%;
-    font-size: 1.25rem;
-    line-height: 1.875rem;
-    color: #154667;
-    font-family: "Georgia",serif;
-    margin-bottom: 20px;
-    padding-left: 25px;
-}
-
-/** SECOND DIV **/
-
-.wordsCont{
-    width: 30%;
-    margin: auto;
+.knowledgeHead{
+    width:80%;
+    margin:100px auto 0px;
     text-align: center;
 }
 
-.wordsCont h3{
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-weight: 500;
-    font-size: 2.75rem;
-    line-height: 3.25rem;
-}
-
-.wordsCont p{
-    padding-top: 10px;
-    font-size: 1.25rem;
-    line-height: 2rem;
+.knowledgeHead h3{
+    font-size: 2.5rem;
+    color: #000;
 }
 
 /** DIVIDER **/
 
 .dividerDiv{
-    width: 90%;
+    width: 5%;
     margin: 10px auto 50px;
-    border-top: 1px solid #000;
+    border-top: 2px solid #000;
 }
 
 /** BOTTOM DIV*/
 
 .knowledgeMain{
     width: 100%;
+    margin-bottom: 150px;
 }
 
 .knowledgeMain > div:not(:first-child){
@@ -111,7 +77,8 @@
 }
 
 .infoHolder h3{
-    font-size: 2.2rem;
+    font-size: 1.425rem;
+    font-weight: 600;
     line-height: 30px;
     letter-spacing: 0px;
 }

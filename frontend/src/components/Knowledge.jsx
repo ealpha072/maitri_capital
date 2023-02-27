@@ -89,27 +89,9 @@ const Knowledge = () => {
     return (
         <div className="knowledgeContainer">
             <Banner backgroundImg={banner_10} extraImg={banner_9}  shortText={text} />
-            <div className={styles.knowledgeTop}>
-                <p>
-                    Knowledge
-                </p>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                    Accusamus placeat vitae cupiditate ratione mollitia id aliquid ad, 
-                    distinctio animi recusandae quo nisi doloribus magni nihil at nostrum voluptatibus nulla voluptas.
-                </p>
-            </div>
-            <div className="knowledgeWords">
-                <div className={styles.wordsCont}>
-                    <h3>Our Previous Work</h3>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur, 
-                        adipisicing elit. Neque necessitatibus eius eveniet 
-                        nobis illum eum ipsum beatae adipisci sequi aspernatur 
-                        obcaecati eos placeat esse provident optio quasi, possimus 
-                        incidunt repellat.
-                    </p>
-                </div>
+            
+            <div className={styles.knowledgeHead}>
+                <h3>Knowledge </h3>
             </div>
             <div className={styles.knowledgeMain}>
                 <div className={styles.dividerDiv}></div>
