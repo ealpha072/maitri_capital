@@ -28,19 +28,19 @@ const Casestudy = () => {
     const imageDivsOne = [
         {
             source:image_0,
-            heading:"Aquarech Case Study",
+            heading:"Aquarech - A Case Study for Understanding Kenyan Startup Ecosystem",
             link:document_0,
             ytLink:"https://www.youtube.com/watch?v=7GpYyXiyX1A"
         },
         {
             source:image_1,
-            heading:"Africa's Talking Case Study",
+            heading:"Africa's Talking - A Case Study for Understanding Kenyan Startup Ecosystem",
             link:document_1,
             ytLink:"https://youtu.be/SNpGMsPiZZE"
         },
         {
             source:image_2,
-            heading:"Flexpay Case Study",
+            heading:"Flexpay - A Case Study for Understanding Kenyan Startup Ecosystem",
             link:document_2,
             ytLink:""
         },
@@ -49,18 +49,18 @@ const Casestudy = () => {
     const imageDivsTwo = [
         {
             source:image_3,
-            heading:"Gearbox Case Study",
+            heading:"Gearbox - A Case Study for Understanding Kenyan Startup Ecosystem",
             link:document_3,
             ytLink:"https://youtu.be/BlaE5UzHbk4"
         },
         {
             source:image_4,
-            heading:"Konza Technopolis Case Study",
+            heading:"Konza Technopolis - A Case Study for Understanding Kenyan Startup Ecosystem",
             link:document_4
         },
         {
             source:image_5,
-            heading:"Laikipia County Study",
+            heading:"Laikipia County and the Startup Ecosystem - A Case Study for Understanding Kenyan Startup Ecosystem",
             link:document_5
         }
     ]
@@ -68,7 +68,7 @@ const Casestudy = () => {
     const imageDivsThree = [
         {
             source:image_6,
-            heading:"Somo Africa Case Study",
+            heading:"SOMO - A Case Study for Understanding Kenyan Startup Ecosystem",
             link:document_6,
             ytLink:"https://youtu.be/QHClCPXHywY"
         }

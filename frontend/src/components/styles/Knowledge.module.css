@@ -83,6 +83,13 @@
     letter-spacing: 0px;
 }
 
+.infoHolder h4{
+    font-size: 1.25rem;
+    font-weight: 700;
+    color:rgb(67, 137, 158);
+}
+
+
 @media screen and (max-width:750px){
     .knowledgeTop p:first-child{
         font-size: 1.8rem;

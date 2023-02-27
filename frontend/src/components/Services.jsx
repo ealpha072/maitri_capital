@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+
 export const Services = ({service_array}) => {
   //write a function that generates a random alphanumeric string
   const randomString = () => {
@@ -11,14 +12,13 @@ export const Services = ({service_array}) => {
     return result;
   }
 
-
-  return (
-    <ul>
-      {service_array.map((item) => (
-        <li key={randomString()}>{item}</li>
-      ))}
-    </ul>
-  );
+  	return (
+		<ul>
+		{service_array.map((item) => (
+			<li key={randomString()}>{item}</li>
+		))}
+		</ul>
+  	);
 }
 
 export const BuildCard = ({ img_details, styles }) => {
@@ -42,16 +42,25 @@ export const BuildCard = ({ img_details, styles }) => {
 };
 
 export const BuildCaseStudyDiv = ({ caseDetails, styles}) => {
-  const link = caseDetails.ytLink ? <Link to={caseDetails.ytLink} target="_blank">Youtube Link</Link> : null
-  return(
-    <div className="col-12 col-md-6 col-lg-4">
-        <Link href="/#"><img src={caseDetails.source} height="256" width="880" alt="" /></Link >
-        <div className={styles}>
-            <Link to={caseDetails.link} target="_blank"><h3>{caseDetails.heading}</h3></Link>
-            {link}
-        </div>
-    </div>
-  )
+  	const link = caseDetails.ytLink ?  
+		<Link to={caseDetails.ytLink} target="_blank"> <h4>Click here for the Youtube Link</h4> </Link> : 
+	null
+
+  	return(
+		<div className="col-12 col-md-6 col-lg-4">
+			<Link to={caseDetails.link}>
+				<img src={caseDetails.source} height="256" width="880" alt="" />
+			</Link >
+			<div className={styles}>
+				<Link to={caseDetails.link} target="_blank">
+					<h3>
+						{caseDetails.heading}
+					</h3>
+				</Link>
+				{link}
+			</div>
+		</div>
+  	)
 }
 
 export const BuildDiffDiv = ({ diffDetails, styles }) => {
