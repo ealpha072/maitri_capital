@@ -13,6 +13,7 @@ const Banner = ({backgroundImg, extraImg, mainText, shortText}) => {
                     </p>
                 </div>
             </div>
+            
             <div className={styles.bannerImgDivider}>
 
             </div>

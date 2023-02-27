@@ -58,11 +58,11 @@
 @media screen and (max-width:750px){
     .bannerContainer{
         margin: 100px 0px 10px 0px;
-        height: 250px;
+        height: 300px;
     }
 
     .bannerImgDiv{
-        height: 250px;
+        height: 300px;
         width: 100%;
         background-position: bottom;
     }
@@ -78,8 +78,8 @@
     }
 
     .paragraphOne{
-        font-size: 1.8rem;
-        line-height: 1.825rem;
+        font-size: 1.4rem;
+        line-height: 1.8rem;
     }
 
     .paragraphTwo{
