@@ -30,28 +30,27 @@ const Casestudy = () => {
             source:image_0,
             heading:"Aquarech - A Case Study for Understanding Kenyan Startup Ecosystem",
             link:document_0,
-            ytLink:"https://www.youtube.com/watch?v=7GpYyXiyX1A"
+            ytLink:"https://www.youtube.com/embed/7GpYyXiyX1A?"
         },
         {
             source:image_1,
             heading:"Africa's Talking - A Case Study for Understanding Kenyan Startup Ecosystem",
             link:document_1,
-            ytLink:"https://youtu.be/SNpGMsPiZZE"
+            ytLink:"https://youtube.com/embed/SNpGMsPiZZE/"
         },
         {
-            source:image_2,
-            heading:"Flexpay - A Case Study for Understanding Kenyan Startup Ecosystem",
-            link:document_2,
-            ytLink:""
+            source:image_3,
+            heading:"Gearbox - A Case Study for Understanding Kenyan Startup Ecosystem",
+            link:document_3,
+            ytLink:"https://youtube.com/embed/BlaE5UzHbk4"
         },
     ]
 
     const imageDivsTwo = [
         {
-            source:image_3,
-            heading:"Gearbox - A Case Study for Understanding Kenyan Startup Ecosystem",
-            link:document_3,
-            ytLink:"https://youtu.be/BlaE5UzHbk4"
+            source:image_2,
+            heading:"Flexpay - A Case Study for Understanding Kenyan Startup Ecosystem",
+            link:document_2,
         },
         {
             source:image_4,
@@ -60,7 +59,7 @@ const Casestudy = () => {
         },
         {
             source:image_5,
-            heading:"Laikipia County and the Startup Ecosystem - A Case Study for Understanding Kenyan Startup Ecosystem",
+            heading:"Laikipia County - A Case Study for Understanding Kenyan Startup Ecosystem",
             link:document_5
         }
     ]
@@ -70,7 +69,26 @@ const Casestudy = () => {
             source:image_6,
             heading:"SOMO - A Case Study for Understanding Kenyan Startup Ecosystem",
             link:document_6,
-            ytLink:"https://youtu.be/QHClCPXHywY"
+            ytLink:"https://youtube.com/embed/QHClCPXHywY"
+        },
+        {
+            source:image_6,
+            heading:"Antler - A Case Study for Understanding Kenyan Startup Ecosystem",
+            ytLink:"https://youtube.com/embed/6aS38yZ-yAw"
+        },
+        {
+            source:image_6,
+            heading:"NSE - A Case Study for Understanding Kenyan Startup Ecosystem",
+            ytLink:"https://youtube.com/embed/8MrYNl8OxwY"
+        },
+
+    ]
+
+    const imageDivsFour = [
+        {
+            source:image_6,
+            heading:"Jessica Colaco - Co-founder iHub and Brave",
+            ytLink:"https://youtube.com/embed/GgGgR4Lr5HU"
         }
     ]
 
@@ -91,6 +109,15 @@ const Casestudy = () => {
                    }
                 </div>
                 <div className="row">
+                   
+                   {
+                        imageDivsThree.map((img, index) => (
+                            <BuildCaseStudyDiv caseDetails={img} styles={styles.infoHolder} key={index} />
+                        ))
+                   }
+                  
+                </div>
+                <div className="row">
                    {
                         imageDivsTwo.map((img, index) => (
                             <BuildCaseStudyDiv caseDetails={img} styles={styles.infoHolder} key={index} />
@@ -98,13 +125,11 @@ const Casestudy = () => {
                    }
                 </div>
                 <div className="row">
-                    <div className="col-12 col-md-6 col-lg-4" style={{visibility:"hidden"}}></div>
                    {
-                        imageDivsThree.map((img, index) => (
+                        imageDivsFour.map((img, index) => (
                             <BuildCaseStudyDiv caseDetails={img} styles={styles.infoHolder} key={index} />
                         ))
                    }
-                   <div className="col-12 col-md-6 col-lg-4" style={{visibility:"hidden"}}></div>
                 </div>
             </div>
         </div>

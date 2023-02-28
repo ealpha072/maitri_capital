@@ -42,25 +42,52 @@ export const BuildCard = ({ img_details, styles }) => {
 };
 
 export const BuildCaseStudyDiv = ({ caseDetails, styles}) => {
-  	const link = caseDetails.ytLink ?  
-		<Link to={caseDetails.ytLink} target="_blank"> <h4>Click here for the Youtube Link</h4> </Link> : 
-	null
 
-  	return(
-		<div className="col-12 col-md-6 col-lg-4">
-			<Link to={caseDetails.link}>
-				<img src={caseDetails.source} height="256" width="880" alt="" />
-			</Link >
-			<div className={styles}>
-				<Link to={caseDetails.link} target="_blank">
-					<h3>
-						{caseDetails.heading}
-					</h3>
-				</Link>
-				{link}
+	if ( caseDetails.ytLink && caseDetails.link ){
+		return(
+			<div className="col-12 col-md-6 col-lg-4">
+				<iframe src={caseDetails.ytLink} frameborder="0" height="256" width="880" title={caseDetails.heading} ></iframe>
+				<div className={styles}>
+					<Link to={caseDetails.link} target="_blank">
+						<h3>
+							{caseDetails.heading}
+						</h3>
+					</Link>
+					<Link to={caseDetails.link} target="_blank"> <i className="fa fa-download"></i> Download Case Study </Link>
+					{/* {link} */}
+				</div>
 			</div>
-		</div>
-  	)
+		)
+	}else if ( !caseDetails.ytLink && caseDetails.link ) {
+		return(
+			<div className="col-12 col-md-6 col-lg-4">
+				<Link to={caseDetails.link}>
+					<img src={caseDetails.source} height="256" width="880" alt="" />
+				</Link >
+				<div className={styles}>
+					<Link to={caseDetails.link} target="_blank">
+						<h3>
+							{caseDetails.heading}
+						</h3>
+					</Link>
+					<Link to={caseDetails.link} target="_blank"> <i className="fa fa-download"></i> Download Case Study </Link>
+				</div>
+			</div>
+		)
+	}else{
+		return(
+			<div className="col-12 col-md-6 col-lg-4">
+				<iframe src={caseDetails.ytLink} frameborder="0" height="256" width="880" title={caseDetails.heading} ></iframe>
+				<div className={styles}>
+					<Link to={caseDetails.ytLink} target="_blank">
+						<h3>
+							{caseDetails.heading}
+						</h3>
+					</Link>
+				</div>
+			</div>
+		)
+	}
 }
 
 export const BuildDiffDiv = ({ diffDetails, styles }) => {
