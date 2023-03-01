@@ -25,7 +25,7 @@ import document_eight from "../assets/knowledge/Maitri Capital_Kenyan E-commerce
 import document_four from "../assets/knowledge/Maitri Capital's 50 Global Inspirational Women of 2020.pdf"
 import document_nine from "../assets/knowledge/Maitri Capital_Why Investors Choose East Africa_Final.png"
 import document_five from "../assets/knowledge/Maitri Capital_COVID in EA Overview_Final.pdf"
-import document_one from "../assets/knowledge/Understanding_The_Kenyan_Startup_Ecosystem_Report.pdf"
+import document_one from "../assets/knowledge/Understanding the Kenyan Startup Ecosystem Report Final.pdf"
 import document_seven from "../assets/knowledge/Maitri Capital_Kenya Labor Force Infographic_Final.png"
 
 const Knowledge = () => {
