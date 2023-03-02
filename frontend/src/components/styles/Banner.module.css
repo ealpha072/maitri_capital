@@ -17,7 +17,7 @@
     position: absolute;
     top: 100px;
     left: 100px;
-    opacity: 0.95;
+    opacity: 0.98;
     background-color: #fff;
 }
 
@@ -31,9 +31,9 @@
 }
 
 .paragraphTwo{
-    font-size: 1.125rem;
+    font-size: 1.25rem;
     line-height: 1.375rem;
-    letter-spacing: -1px;
+    letter-spacing: 1px;
     margin-bottom: 10px;
     padding-left: 25px;
     padding-bottom: 25px;
@@ -41,15 +41,12 @@
 }
 
 .bannerImgDivider{
-    /* display: none; */
     background-image: url("../../assets/banners/pattern.jpg");
     background-size: cover;
-    /* background-color: rgb(193, 222, 231); */
     width: 3%;
 }
 
 .bannerImgDivTwo{
-    /* display: none; */
     width: calc(100% - 73%);
     background-size: cover;
     background-repeat: no-repeat;
