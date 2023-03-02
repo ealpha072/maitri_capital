@@ -13,11 +13,11 @@ const Coreservices = () => {
     useEffect(()=>{
         document.title = "Maitri Capital -  Our Services"
     })
-    
+
     const text = "Superior Service Provision"
     return (
         <div className="mg-tp">
-            <Banner backgroundImg={banner_11} extraImg={banner_12}  shortText={text} />
+            <Banner backgroundImg={banner_11} extraImg={banner_12}  mainText={text} />
             <div className="about-top">
                 <p className="front-p" style={{paddingLeft:'0px'}}>Our Services</p>
                 <p className="p-about" style={{paddingLeft:'0px'}}>

@@ -99,7 +99,7 @@ const Casestudy = () => {
     const text = "Diversified Knowledge"
     return (
         <div className="knowledgeContainer">
-            <Banner backgroundImg={banner_10} extraImg={banner_9}  shortText={text} />
+            <Banner backgroundImg={banner_10} extraImg={banner_9}  mainText={text} />
             <div className={styles.knowledgeHead}>
                 <h3>Case Studies </h3>
             </div>

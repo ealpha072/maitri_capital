@@ -19,7 +19,7 @@ const Sectors = () => {
 
     return (
         <div className="sector-section">
-            <Banner backgroundImg={banner_5} extraImg={banner_5} shortText={text} />
+            <Banner backgroundImg={banner_5} extraImg={banner_5} mainText={text} />
             <div className="sector-brief about-top d-flex">
                 <div className="sector-expl about-p">
                     <p className="front-p">Industry Coverage</p>

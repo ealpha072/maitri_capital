@@ -2,8 +2,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Raleway&family=Roboto&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
 
-/* "Source Sans Pro","Roboto","Arial",sans-serif */
-
 :root{
   --blue: #44546A;
   --gold:#BF9000;
@@ -99,7 +97,6 @@ section div.front{
 }
 
 /*ABOUT US*/
-
 div.about-top{
   justify-content: space-between;
   width: 90%;
@@ -134,7 +131,6 @@ div.about-top p.p-about{
   padding-top: 0px;
 }
 
-/*KNOWLEDGE */
 
 /*BREAKPOINTS*/
 @media screen and (max-width:750px){

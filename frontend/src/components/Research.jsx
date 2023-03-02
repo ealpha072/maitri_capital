@@ -1,4 +1,3 @@
-// import document_one from "../assets/documents/health.pdf"
 import styles from './styles/Services.module.css'
 
 const Research = () => {
@@ -68,7 +67,7 @@ const Research = () => {
                 </div>
             </div>
         </div>
-  )
+    )
 }
 
 export default Research

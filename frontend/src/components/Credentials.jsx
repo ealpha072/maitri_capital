@@ -22,11 +22,11 @@ const Credentials = () => {
     useEffect(()=>{
         document.title = "Maitri Capital -  Credentials"
     })
-    
+
     const text = "Providing expert investment and corporate advisory services in Africa"
     return (
         <div className={styles.credentialsCont}>
-            <Banner backgroundImg={banner_10} extraImg={banner_9} shortText={text} />
+            <Banner backgroundImg={banner_10} extraImg={banner_9} mainText={text} />
             <div className={styles.credsTopDiv}>
                 <h3>Transaction <span>Credentials</span></h3>
                 <div></div>

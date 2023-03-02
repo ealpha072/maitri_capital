@@ -11,11 +11,11 @@ const Team = () => {
     useEffect(()=>{
         document.title = "Maitri Capital - Team"
     })
-    
+
     const text = "A proffesional Team dedicated to Excellence"
     return (
         <div className="teams">
-            <Banner backgroundImg={banner_12} extraImg={banner_13} shortText={text} />
+            <Banner backgroundImg={banner_12} extraImg={banner_13} mainText={text} />
             <div className="sector-brief about-top d-flex">
                 <div className="sector-expl about-p">
                     <p className="front-p">Team</p>

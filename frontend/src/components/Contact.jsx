@@ -8,12 +8,12 @@ const Contact = () => {
     useEffect(()=>{
         document.title = "Maitri Capital - Contact us"
     })
-    
+
     const text = "Connect with Us"
 
     return (
         <div className='contact-holder'>
-            <Banner backgroundImg={banner_6} extraImg={banner_6} shortText={text} />
+            <Banner backgroundImg={banner_6} extraImg={banner_6} mainText={text} />
             <div className="sector-brief about-top">
                 <div className="sector-expl about-p">
                     <p className="front-p">Our Offices </p>
