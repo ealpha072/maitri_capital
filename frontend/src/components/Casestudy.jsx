@@ -1,3 +1,5 @@
+import { useEffect } from "react";
+
 import { BuildCaseStudyDiv } from "./Services";
 import styles from "./styles/Knowledge.module.css"
 
@@ -14,16 +16,18 @@ import image_4 from "../assets/cases/konza.png"
 import image_5 from "../assets/cases/laik.jpg"
 import image_6 from "../assets/cases/somo.jpg"
 //DOCUMENTS
-import document_1 from '../assets/documents/Africa\'s Talking - A Case Study for Understanding Kenyan Startup Ecosystem.pdf'
-import document_0 from '../assets/documents/Aquarech - A Case Study for Understanding Kenyan Startup Ecosystem (2).pdf'
-import document_2 from '../assets/documents/Flexpay - A Case Study for Understanding Kenyan Startup Ecosystem.pdf'
-import document_3 from '../assets/documents/Gearbox - A Case Study for Understanding Kenyan Startup Ecosystem (2).pdf'
-import document_4 from '../assets/documents/Konza Technopolis - A Case Study for Understanding Kenyan Startup Ecosystem.pdf'
-import document_5 from '../assets/documents/Laikipia County and the Startup Ecosystem - A Case Study for Understanding Kenyan Startup Ecosystem (3).pdf'
-import document_6 from '../assets/documents/SOMO - A Case Study for Understanding Kenyan Startup Ecosystem (1).pdf'
-
+import document_1 from '../assets/documents/Africa\'s Talking - A_Case_Study_for_Understanding_Kenyan_Startup_Ecosystem.pdf'
+import document_0 from '../assets/documents/Aquarech - A_Case_Study_for_Understanding_Kenyan_Startup_Ecosystem.pdf'
+import document_2 from '../assets/documents/Flexpay - A_Case_Study_for_Understanding_Kenyan_Startup_Ecosystem.pdf'
+import document_3 from '../assets/documents/Gearbox - A_Case_Study_for_Understanding_Kenyan_Startup_Ecosystem.pdf'
+import document_4 from '../assets/documents/Konza Technopolis - A_Case_Study_for_Understanding_Kenyan_Startup_Ecosystem.pdf'
+import document_5 from '../assets/documents/Laikipia County - A_Case_Study_for_Understanding_Kenyan_Startup_Ecosystem.pdf'
+import document_6 from '../assets/documents/SOMO - A_Case_Study_for_Understanding_Kenyan_Startup_Ecosystem.pdf'
 
 const Casestudy = () => {
+    useEffect(()=>{
+        document.title = "Maitri Capital -  Case Studies"
+    })
 
     const imageDivsOne = [
         {
