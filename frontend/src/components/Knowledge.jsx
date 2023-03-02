@@ -1,3 +1,5 @@
+import { useEffect } from "react";
+
 import { BuildCard } from "./Services";
 import styles from "./styles/Knowledge.module.css"
 
@@ -17,7 +19,7 @@ import image_seven from "../assets/screens/labor_markets_kenya.png"
 import image_eight from "../assets/screens/ecommerce_landscape.png"
 import image_nine from "../assets/screens/investors.png"
 
-//documents
+//DOCUMENTS
 import document_two from "../assets/knowledge/COVID-19 Vaccination Status in Africa_Maitri Capital_Feb 2021_Final.pdf"
 import document_six from "../assets/knowledge/Maitri Capital_Kenya_Retail Sector_Final_2020.jpg"
 import document_three from "../assets/knowledge/IMPACT OF COVID-19 ON KENYA'S FINANCIAL MARKETS BY MAITRI CAPITAL.pdf"
@@ -29,6 +31,10 @@ import document_one from "../assets/knowledge/Understanding the Kenyan Startup E
 import document_seven from "../assets/knowledge/Maitri Capital_Kenya Labor Force Infographic_Final.png"
 
 const Knowledge = () => {
+    useEffect(()=>{
+        document.title = "Maitri Capital -  Knowledge"
+    })
+
     const imagesOne = [
         {
             source:image_one,

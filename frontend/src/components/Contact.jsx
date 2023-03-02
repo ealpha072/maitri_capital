@@ -1,9 +1,14 @@
+import { useEffect } from "react"
 import styles from "./styles/Contact.module.css"
 
 import Banner from "./Banner"
 import banner_6 from "../assets/banners/banner_6.jpg"
 
 const Contact = () => {
+    useEffect(()=>{
+        document.title = "Maitri Capital - Contact us"
+    })
+    
     const text = "Connect with Us"
 
     return (

@@ -1,10 +1,15 @@
-import {useState} from 'react'
+import {useState, useEffect} from 'react'
 import styles from './styles/Sector.module.css'
 
 import Banner from './Banner'
 import banner_5 from "../assets/banners/banner_5.jpg"
 
 const Sectors = () => {
+
+    useEffect(()=>{
+        document.title = "Maitri Capital -  Sectors"
+    })
+
     const text = "Sector diverse Company"
     const [isDisplay, setDisplay] = useState(false)
     const handleToggle = (e) => {
@@ -117,7 +122,7 @@ const Sectors = () => {
                 </div>
             </div>
         </div>
-  )
+    )
 }
 
 export default Sectors

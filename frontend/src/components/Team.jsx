@@ -11,6 +11,7 @@ const Team = () => {
     useEffect(()=>{
         document.title = "Maitri Capital - Team"
     })
+    
     const text = "A proffesional Team dedicated to Excellence"
     return (
         <div className="teams">

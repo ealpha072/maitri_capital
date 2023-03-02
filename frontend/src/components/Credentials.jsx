@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import styles from "./styles/Credentials.module.css"
 
 import Banner from "./Banner";
@@ -17,7 +18,12 @@ import image_7 from "../assets/transactions/maitri_m.png"
 
 
 const Credentials = () => {
-   const text = "Providing expert investment and corporate advisory services in Africa"
+
+    useEffect(()=>{
+        document.title = "Maitri Capital -  Credentials"
+    })
+    
+    const text = "Providing expert investment and corporate advisory services in Africa"
     return (
         <div className={styles.credentialsCont}>
             <Banner backgroundImg={banner_10} extraImg={banner_9} shortText={text} />

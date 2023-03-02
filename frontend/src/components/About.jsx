@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import styles from "./styles/About.module.css"
 import { BuildDiffDiv } from "./Services";
 
@@ -6,6 +7,11 @@ import banner_9 from "../assets/banners/banner_9.jpg"
 import banner_10 from "../assets/banners/banner_10.jpg"
 
 const About = () => {
+
+	useEffect(()=>{
+        document.title = "Maitri Capital -  About Us"
+    })
+
    	const text = `Independent, Client-Focused Impact, Investment, 
 	and Corporate Advisory and Research for Africa`
 

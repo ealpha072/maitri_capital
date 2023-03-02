@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import Banner from "./Banner";
 import Research from './Research';
 import styles from './styles/Services.module.css'
@@ -8,6 +9,11 @@ import banner_12 from "../assets/images/img_three.jpg"
 
 
 const Coreservices = () => {
+
+    useEffect(()=>{
+        document.title = "Maitri Capital -  Our Services"
+    })
+    
     const text = "Superior Service Provision"
     return (
         <div className="mg-tp">
