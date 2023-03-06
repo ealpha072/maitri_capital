@@ -3,7 +3,7 @@ import { useEffect } from 'react';
 import Banner from './Banner';
 import styles from './styles/Team.module.css'
 
-import avatar from '../assets/images/avatar.jpg'
+import neha from '../assets/images/neha.jpg'
 import banner_12 from "../assets/banners/banner_12.jpg"
 import banner_13 from "../assets/images/img_three.jpg"
 
@@ -46,7 +46,15 @@ const Team = () => {
             <div className={styles.founderDiv}>
                 <div>
                     <div className={styles.teamPics}>
-                        <img src={avatar} alt="" width={200} height={200} />
+                        <img src={neha} alt="" width={183} height={184} />
+                        <div className={styles.teamDetails}>
+                            <a href="https://www.linkedin.com/in/neha-shah-a057b31/" target="blank" rel="noreferrer">Neha Shah</a>
+                            <p className="team-title">Co-Founder, <br /> Managing Director</p>
+                        </div>
+                    </div>
+
+                    <div className={styles.teamPics}>
+                        <img src={neha} alt=""   width={183} height={184} />
                         <div className={styles.teamDetails}>
                             <a 
                                 href='https://www.linkedin.com/in/poonam-vora-547b9242/?originalSubdomain=ke' 
@@ -58,44 +66,10 @@ const Team = () => {
                             <p className="team-title">Co-Founder, <br /> Managing Director</p>
                         </div>
                     </div>
-
-                    <div className={styles.teamPics}>
-                        <img src={avatar} alt="" width={200} height={200} />
-                        <div className={styles.teamDetails}>
-                            <a href="https://www.linkedin.com/in/neha-shah-a057b31/" target="blank" rel="noreferrer">Neha Shah</a>
-                            <p className="team-title">Co-Founder, <br /> Managing Director</p>
-                        </div>
-                    </div>
                 </div>
             </div>
 
             <div className={styles.founderHolder}>
-                <div>
-                    <p>Poonam Vora</p>
-                    <p>
-                        Poonam has over 20 years of experience in Corporate Finance,
-                        M&A, Transaction Services, Research and Advisory services.
-                        She began her career as an Actuarial Analyst with Alexander Forbes 
-                        Financial Services (thereafter renamed to Zamara Financial Services) 
-                        after obtaining a degree in Actuarial Science from City University (UK). 
-                    </p>
-                    <p>
-                        She gained significant experience in the pensions, insurance (general and healthcare) 
-                        industry in Kenya over 3 years. This experience was augmented in the UK as a Protection 
-                        Product and Deputy Investment Manager with Bradford and Bingley. She also has over 10 years 
-                        of Corporate Finance, Advisory and Research experience having worked at Dyer and Blair Investment Bank, 
-                        where she was involved in the largest IPOs in Kenya, including Kenya- Re and Safaricom; 
-                        and Stratlink Africa, where she was instrumental in deal sourcing, conducting due diligence,
-                        leading research and a key member of the deal advisory team. 
-                    </p>
-                    <p>
-                        She is also the Co-Founder of Rafiki Ventures, a Venture Investment Company. 
-                        Poonam is also an active angel investor in startups in Africa. Poonam sits on the 
-                        Board of Directors of Jubilee Financial Services Limited, a fund manager managing assets for 
-                        several institutions. She chairs the risk and audit committee.
-                    </p>
-                </div>
-                
                 <div>
                     <p>Neha Shah</p>
                     <p>
@@ -109,21 +83,48 @@ const Team = () => {
                     <p>
                         She then worked in investment banking for Lexicon Partners (now Evercore Partners)' award-winning 
                         UK energy and infrastructure team, as well as Dresdner Kleinwort's UK M&A team (now Commerzbank). 
-                        Following that Neha worked with Norfund, an emerging markets Development Finance Institute backed by 
+                        Following that, Neha worked with Norfund, an emerging markets Development Finance Institute backed by 
                         the Norwegian Government, focusing on principal investments in Eastern Africa; as well as Actis, 
                         one of the largest emerging markets private equity funds, where she focused on Energy and 
-                        Infrastructure investments especially in Africa.
+                        Infrastructure investments, especially in Africa.
                     </p>
                     <p>
-                        Neha is also a Co-founder at Rafiki Ventures, 
+                        Neha is also a co-founder at Rafiki Ventures, 
                         a Venture Investment Company. Neha holds a Master’s degree in Economics from the University of 
                         Cambridge, where she was on scholarship as a Commonwealth Scholar. She also holds an MBA from INSEAD, 
                         where she was a Goldman Sachs scholar, graduated with distinction, and was also elected President of 
-                        the INSEAD Africa Society. Neha was awarded Top 40 under 40 Women by the Business Daily in Kenya. 
+                        the INSEAD Africa Society. Neha was named one of the "Top 40 Under 40 women" by the Business Daily in Kenya. 
                         Neha was a member of Investor’s Circle’s Global Health Advisory Board, one of the largest impact 
-                        investor networks, where she advised on global healthcare opportunities including Africa. 
-                        She was also a member of the Economic Council of Oshwals’ in Kenya. She sits on the Board of several 
-                        private owned businesses in Africa and UK.
+                        investor networks, where she advised on global healthcare opportunities, including in Africa. 
+                        She was also a member of the Economic Council of Oshwals’ in Kenya. She sits on the board of several 
+                        privately owned businesses in Africa and the UK.
+                    </p>
+                </div>
+
+                <div>
+                    <p>Poonam Vora</p>
+                    <p>
+                        Poonam has over 20 years of experience in Corporate Finance,
+                        M&A, Transaction Services, Research and Advisory services.
+                        She began her career as an Actuarial Analyst with Alexander Forbes 
+                        Financial Services (thereafter renamed to Zamara Financial Services) 
+                        after obtaining a degree in Actuarial Science from City University (UK). 
+                    </p>
+                    <p>
+                        Over the course of 3 years, she gained significant experience in the 
+                        pensions and insurance (general and healthcare) industries in Kenya. 
+                        This experience was augmented in the UK as a Protection Product and Deputy Investment Manager 
+                        at Bradford & Bingley's. She also has over 10 years experience in 
+                        Corporate Finance, Advisory, and Research where and has been involved in some of the largest IPOs in Kenya, 
+                        including KenyaRe and Safaricom, and a boutique advisory firm where she was 
+                        instrumental in deal sourcing, conducting due diligence, leading research, 
+                        and a key member of the deal advisory team. 
+                    </p>
+                    <p>
+                        She is also the co-founder of Rafiki Ventures, a venture investment company. 
+                        Poonam is also an active angel investor in startups in Africa. Poonam sits on the 
+                        Board of Directors of Jubilee Financial Services Limited, and is a fund manager for 
+                        several institutions.
                     </p>
                 </div>
             </div>

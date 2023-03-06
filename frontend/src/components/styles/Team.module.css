@@ -27,6 +27,17 @@
     overflow: hidden;
 }
 
+.teamPics img{
+    border: 2px solid #154667;
+    cursor: pointer;
+    border-radius: 50%;
+    transition: all 0.5s ease;
+}
+
+.teamPics img:hover{
+    transform: scale(0.9);
+}
+
 
 .founderDiv > div{
     display: flex;

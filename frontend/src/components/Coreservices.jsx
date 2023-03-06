@@ -1,6 +1,5 @@
 import { useEffect } from "react";
 import Banner from "./Banner";
-import Research from './Research';
 import styles from './styles/Services.module.css'
 
 import sm_banner from '../assets/images/banner_1.jpg'
@@ -72,7 +71,6 @@ const Coreservices = () => {
                     </p>
                 </div>
             </div>
-            <Research />
         </div>
     );
 }
