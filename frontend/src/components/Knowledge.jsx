@@ -127,7 +127,11 @@ const Knowledge = () => {
                 <div className="row">
                     {
                         imagesTwo.map((image, index) => (
-                            <BuildCard img_details={ image } styles={styles.infoHolder} key={index} />
+                            <BuildCard 
+                                img_details={ image } 
+                                styles= {styles.infoHolder} 
+                                key={index} 
+                            />
                         ))
                     }
                 </div>

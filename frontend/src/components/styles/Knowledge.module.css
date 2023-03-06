@@ -54,9 +54,13 @@
     width: 100%;
 }
 
+.colHolder{
+    margin-top: 10px;
+}
+
 .infoHolder{
     color: #000;
-    font-family: "Century Gothic", Helvetica, Arial, sans-serif;;
+    font-family: Lato, sans-serif;;
     padding: 20px;
 }
 
@@ -103,6 +107,10 @@
         width: 100%;
     }
 
+    .knowledgeMain > div:not(:first-child) > div{
+        margin-top: 25px;
+    }
+
     .wordsCont{
         width: 80%;
     }
@@ -113,6 +121,10 @@
 
     .wordsCont p{
         font-size: 1rem;
+    }
+
+    .colHolder{
+        margin-top: 20px;
     }
 
     .infoHolder{
@@ -128,7 +140,8 @@
     }
 
     .infoHolder h3{
-        font-size: 1.2rem;
+        font-size: 1rem;
+        line-height: 20px;
     }
 }
 
