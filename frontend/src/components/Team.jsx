@@ -3,7 +3,8 @@ import { useEffect } from 'react';
 import Banner from './Banner';
 import styles from './styles/Team.module.css'
 
-import neha from '../assets/images/neha.jpg'
+import neha from '../assets/images/neha.png'
+import poonam from '../assets/images/poonam.png'
 import banner_12 from "../assets/banners/banner_12.jpg"
 import banner_13 from "../assets/images/img_three.jpg"
 
@@ -46,7 +47,7 @@ const Team = () => {
             <div className={styles.founderDiv}>
                 <div>
                     <div className={styles.teamPics}>
-                        <img src={neha} alt="" width={183} height={184} />
+                        <img src={neha} alt=""/>
                         <div className={styles.teamDetails}>
                             <a href="https://www.linkedin.com/in/neha-shah-a057b31/" target="blank" rel="noreferrer">Neha Shah</a>
                             <p className="team-title">Co-Founder, <br /> Managing Director</p>
@@ -54,11 +55,11 @@ const Team = () => {
                     </div>
 
                     <div className={styles.teamPics}>
-                        <img src={neha} alt=""   width={183} height={184} />
+                        <img src={poonam} alt=""    />
                         <div className={styles.teamDetails}>
                             <a 
                                 href='https://www.linkedin.com/in/poonam-vora-547b9242/?originalSubdomain=ke' 
-                                target="blank" 
+                                target="blank"
                                 rel="noreferrer"
                             >
                                 Poonam Vora
