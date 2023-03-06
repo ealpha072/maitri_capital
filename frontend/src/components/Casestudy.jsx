@@ -83,7 +83,7 @@ const Casestudy = () => {
         {
             source:image_6,
             heading:"NSE - A Case Study for Understanding Kenyan Startup Ecosystem",
-            ytLink:"https://youtube.com/embed/8MrYNl8OxwY"
+            ytLink:"https://youtube.com/embed/XoABv2M9YKY"
         },
 
     ]
