@@ -111,6 +111,10 @@
         margin-top: 25px;
     }
 
+    .dividerDiv{
+        width: 20%;
+    }
+
     .wordsCont{
         width: 80%;
     }
