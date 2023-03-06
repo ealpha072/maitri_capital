@@ -22,22 +22,22 @@
 }
 
 .paragraphOne{
-    font-size: 1.875rem;
-    line-height: 2.375rem;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 1;
     letter-spacing: -1px;
     color:var(--hlblue);
     padding: 10px 25px 0 25px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .paragraphTwo{
-    font-size: 1.25rem;
-    line-height: 1.375rem;
-    letter-spacing: 1px;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 26px;
     margin-bottom: 10px;
     padding-left: 25px;
     padding-bottom: 25px;
-    color: #000;
+    color: #5b6987;
 }
 
 .bannerImgDivider{

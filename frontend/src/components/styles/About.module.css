@@ -32,15 +32,19 @@
 }
 
 .missionDiv p:first-child{
+    color: var(--hlblue);
+    font-size: 32px;
+    line-height: 22px;
+    font-weight: 700;
     padding-top: 30px;
 }
 
 .missionDiv p:last-child{
     margin: 20px auto;
     color: #2bb8e2;
-    font-size: 1.5rem;
-    line-height: 2.125rem;
-    font-family: "Georgia",serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1.5;
 }
 
 /* HOLDERS FOR INDIVIDUAL */
@@ -58,20 +62,18 @@
 .individualHolder h3{
     padding-top: 6px;
     padding-bottom: 6px;
-    font-size: 1.6rem;
-    color: #2bb8e2;
-    font-weight: 500;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--hlblue);
 }
 
 .individualHolder ul li{
-    width: 70%;
+    width: 80%;
     margin: auto;
-    font-size: 1.17rem;
-    font-weight: 400;
-    font-family: 'Roboto', sans-serif;
-    color: #002855;
-    text-indent: -4px;
+    font-size: 14px;
+    line-height: 1.5;
+    font-family: Inter;
+    color: var(--hlblue);
     padding: 4px;
 }
 
@@ -108,7 +110,6 @@
     font-size: 1.875rem;
     line-height: 2.375rem;
     letter-spacing: -1px;
-    font-family: "Georgia",serif;
 }
 
 .aboutLeft p{
@@ -118,7 +119,6 @@
     color: #2bb8e2;
     font-size: 1.5rem;
     line-height: 2.125rem;
-    font-family: "Georgia",serif;   
 }
 
 /* WHAT DIFFS US */
@@ -149,13 +149,11 @@
     font-size: 1.425rem;
     color: #002855;
     margin-bottom: 0px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .diffMainHolder ul li{
     font-size: 1.2rem;
     line-height: 1.875rem;
-    font-family: "Georgia",serif;
 }
 
 .storyLine{

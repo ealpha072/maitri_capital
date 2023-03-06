@@ -73,7 +73,8 @@
 }
 
 .navigationDetails a{
-    font-size: 0.85rem;
+    font-weight: 600;
+    font-size: 12px;
     margin-right: 35px;
 }
 

@@ -79,7 +79,7 @@ const About = () => {
 
 			<div className={styles.aboutTop}>
 				<div className={styles.missionDiv}>
-					<p className="front-p">Our Mission</p>
+					<p>Our Mission</p>
 					<p className="">
 						"Our mission is to help build a world in which Africans and
 						African Businesses can compete on a global scale, while remaining
@@ -95,7 +95,7 @@ const About = () => {
 			<div className={styles.separator}>
 				<div className={styles.aboutTop} style={{backgroundColor:"rgb(193, 222, 231)", paddingTop:"30px"}}>
 					<div className={styles.missionDiv}>
-						<p className="front-p">Our Values</p>
+						<p>Our Values</p>
 						<p style={{color:"#002855"}}>
 							"Our values define us as individuals and as a company. We uphold
 							them in every conversation, meeting, and transaction."
