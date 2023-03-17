@@ -13,15 +13,17 @@ const Clients = () => {
         document.title = "Maitri Capital -  Our Clients"
     })
 
-    const text = "Serving Clients Accross Africa"
+    const text = "Serving Clients Across Africa"
     return (
         <div className="mg-tp">
             <Banner backgroundImg={banner_11} extraImg={banner_12}  mainText={text} />
             <div className="about-top">
-                <p className="front-p" style={{paddingLeft:'0px'}}>Our Services</p>
+                <p className="front-p" style={{paddingLeft:'0px'}}>Our Clients</p>
                 <p className="p-about" style={{paddingLeft:'0px'}}>
-                    We offer a range of investment and corporate 
-                    advisory services to help our clients succeed in the complex and dynamic African market.
+                    We take great pride in the relationships we have built with our diverse clientele, 
+                    which includes investors, companies, entrepreneurs, and institutions. We understand 
+                    that each of these groups has unique needs and goals, and we are committed to providing 
+                    personalized and tailored solutions to help them achieve their objectives.
                 </p>
             </div>
             {/* <div className={styles.diverse}>
@@ -38,36 +40,41 @@ const Clients = () => {
             </div> */}
             <div className={styles.services}>
                 <div>
-                    <h4>Investment Advisory</h4>
+                    <h4>Investors</h4>
                     <p>
-                        We offer a wide range of advisory services, including Mergers and Acquisitions, 
-                        Capital Raising, Private Placement, Valuation, Due Diligence, Capital Structure and 
-                        Restructuring, and Investment Research. Our team of experienced advisors has deep knowledge 
-                        of the African market, and we work closely with our clients 
-                        to develop customized investment strategies that meet their specific goals and objectives.
+                        Investors form a crucial part of our clientele, and we take pride in the range of 
+                        services we offer to meet their unique investment needs. Our investor clients include 
+                        private equity funds, venture capital funds, development finance institutions, foundations, 
+                        family offices, high-net-worth individuals (HNWIs), accelerators, and incubators. 
+                        We offer a range of services including deal sourcing, due diligence, valuation, and 
+                        portfolio management. We have a deep understanding of the private equity landscape and 
+                        leverage our extensive network to identify high-quality investment opportunities that meet 
+                        our clients' objectives.
                     </p>
                 </div>
                 <div>
-                    <h4>Corporate Advisory</h4>
+                    <h4>Companies & Entrepreneurs</h4>
                     <p>
-                    Whether our clients are looking to grow their business, optimize their operations, 
-                    or address specific challenges, our team has the expertise to help them succeed. 
-                    We provide end-to-end support throughout the corporate advisory process, 
-                    from identifying opportunities and developing strategies to executing plans and achieving results. 
-                    Our team also provides comprehensive financial management and board advisory 
-                    services, helping our clients to make informed decisions and achieve their long-term goals.
+                        Our client base includes listed companies, family businesses, multinational corporations (MNCs), 
+                        startups, and small and medium-sized enterprises (SMEs). we offer a range of advisory services 
+                        including succession planning, family governance, and business valuation. We have a deep understanding 
+                        of the complexities of doing business across borders and leverage our extensive global network to help 
+                        our clients navigate local regulations and customs. For startups, we offer a range of services including 
+                        mentorship, fundraising, and business model optimization. We understand the unique challenges facing 
+                        small and medium-sized businesses and work closely with our clients to help them achieve their financial 
+                        and strategic objectives.
                     </p>
                 </div>
                 <div>
-                    <h4>Research & Data Insights</h4>
+                    <h4>Institutional</h4>
                     <p>
-                        Our team of expert analysts leverages cutting-edge technology and
-                        sophisticated data-driven methodologies to deliver in-depth insights
-                        that inform and drive your business decisions. Whether you need to
-                        monitor market trends, understand consumer behavior, or gain a
-                        competitive edge, we have the tools and expertise to help you succeed.
-                        With a focus on delivering actionable insights and a commitment to
-                        accuracy and precision.
+                        At our company, we are proud to work with a diverse group of institutional clients, including policy 
+                        makers, NGOs, and think tanks. Our institutional services are designed to meet the unique needs and 
+                        objectives of each of these clients, helping them to achieve their missions and make a positive impact 
+                        in the world. we also offer a range of support services to help our institutional clients achieve their 
+                        objectives. These include training and capacity building, stakeholder engagement, and communication support. 
+                        We believe that by working closely with our institutional clients and providing them with the tools and 
+                        support they need to succeed, we can help them make a positive impact in the world and achieve their missions.
                     </p>
                 </div>
             </div>

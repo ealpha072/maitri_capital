@@ -12,12 +12,12 @@ const About = () => {
         document.title = "Maitri Capital -  About Us"
     })
 
-   	const text = `Independent, Client-Focused Impact, Investment, 
+   	const text = `Independent, Client-Focused Impact Investment, 
 	and Corporate Advisory and Research for Africa`
 
 	const shortText = `Providing our clients with unrivaled market knowledge, experience, 
    		global execution capabilities and industry-leading network access in order to 
-		deliver in-depth insight, high-quality advice, and close deals
+		deliver in-depth insight, high-quality advice, and close deals.
 	`
 
 	const diffDivs = [

@@ -103,11 +103,10 @@ const Footer = () => {
                 <div className={`col-lg-2 col-md-4 col-sm-6 col-xs-12 footer-div ${styles.footerSocials}`}>
                     <h6>Follow</h6>
                     <ul className={styles.list}>
-                        <li><a href="/#"><i className='fa fa-envelope fa-xl'></i></a></li>
-                        <li><a href="/#"><i className='fa fa-twitter'></i></a></li>
-                        <li><a href="/#"><i className='fa fa-linkedin'></i></a></li>
-                        <li><a href="/#"><i className='fa fa-facebook'></i></a></li>
-                        <li><a href="/#"><i className='fa fa-phone'></i></a></li>
+                        <li><a href="mailto:info@maitri-group.com"><i className='fa fa-envelope fa-xl'></i></a></li>
+                        <li><a href="https://twitter.com/maitricapital?lang=en" target="_blank" rel="noreferrer"><i className='fa fa-twitter'></i></a></li>
+                        <li><a href="https://www.linkedin.com/company/maitricapitalltd/"  target="_blank" rel="noreferrer"><i className='fa fa-linkedin'></i></a></li>
+                        <li><a href="tel:+254736920222"><i className='fa fa-phone'></i></a></li>
                     </ul>
                 </div>
             </div>

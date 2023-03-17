@@ -7,7 +7,7 @@
 
 .diverse div:first-child{
     width: 65%;
-    margin-left: auto; 
+    margin-left: auto;
 }
 
 .diverse div:first-child p{
@@ -54,9 +54,14 @@
 }
 
 .services div p{
+    font-size: 1.2rem;
+    text-align: justify;
+    line-height: 1.875rem;
+    color: #154667;
+    font-family: "Georgia",serif;
+    margin-bottom: 10px;
     padding: 20px;
-    font-size: 1.025rem;
-    color: #000;
+    font-size: 1.025rem; 
 }
 
 /*RSEEARCH SECTION */

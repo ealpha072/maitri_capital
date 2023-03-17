@@ -13,7 +13,7 @@ const Header = () => {
                 <div className='d-flex nav-top-div'>
                     <div className="navtop-link">
                         <Link to='/contact'>Contacts</Link>
-                        <Link to='#'>Careers</Link>
+                        <Link to='/careers'>Careers</Link>
                     </div>
                     <input 
                         type="text" 

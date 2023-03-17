@@ -10,12 +10,12 @@ const Sectors = () => {
         document.title = "Maitri Capital -  Sectors"
     })
 
-    const text = "Sector diverse company"
-    const [isDisplay, setDisplay] = useState(false)
-    const handleToggle = (e) => {
-        e.preventDefault()
-        setDisplay(!isDisplay)
-    }
+    const text = "Sector Diverse Company"
+    // const [isDisplay, setDisplay] = useState(false)
+    // const handleToggle = (e) => {
+    //     e.preventDefault()
+    //     setDisplay(!isDisplay)
+    // }
 
     return (
         <div className="sector-section">

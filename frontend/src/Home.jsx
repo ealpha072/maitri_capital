@@ -15,6 +15,7 @@ import Knowledge from './components/Knowledge'
 import Credentials from './components/Credentials'
 import Casestudy from './components/Casestudy'
 import Clients from './components/Clients'
+import Careers from './components/Careers'
 
 
 const Home = () => {
@@ -32,6 +33,7 @@ const Home = () => {
 				<Route path='/knowledge' element={<Knowledge />} />
 				<Route path='/credentials' element={<Credentials />} />
 				<Route path='/clients' element={<Clients />} />
+				<Route path='/careers' element={<Careers />} />
 				<Route path='/knowledge/case_studies' element={<Casestudy />} />
           	</Routes>
           	<Footer />

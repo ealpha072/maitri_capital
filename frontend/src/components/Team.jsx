@@ -13,7 +13,7 @@ const Team = () => {
         document.title = "Maitri Capital - Team"
     })
 
-    const text = "A Proffesional Team Dedicated to Excellence"
+    const text = "A Professional Team Dedicated to Excellence"
     return (
         <div className="teams">
             <Banner backgroundImg={banner_12} extraImg={banner_13} mainText={text} />

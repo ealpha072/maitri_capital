@@ -23,7 +23,7 @@ const Credentials = () => {
         document.title = "Maitri Capital -  Credentials"
     })
 
-    const text = "Providing expert investment and corporate advisory services in Africa"
+    const text = "Providing Expert Investment and Corporate Advisory Services in Africa"
     return (
         <div className={styles.credentialsCont}>
             <Banner backgroundImg={banner_10} extraImg={banner_9} mainText={text} />
