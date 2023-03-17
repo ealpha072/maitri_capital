@@ -13,14 +13,14 @@ const Team = () => {
         document.title = "Maitri Capital - Team"
     })
 
-    const text = "A proffesional Team dedicated to Excellence"
+    const text = "A Proffesional Team Dedicated to Excellence"
     return (
         <div className="teams">
             <Banner backgroundImg={banner_12} extraImg={banner_13} mainText={text} />
             <div className="sector-brief about-top d-flex">
                 <div className="sector-expl about-p">
                     <p className="front-p">Team</p>
-                    <p className="p-about">
+                    <p className="p-about" style={{textAlign:"justify"}}>
                         Maitri Capital was founded by Poonam Vora and Neha Shah on the 
                         belief that infusing capital, talent, and know-how into local African 
                         companies can result in long-term economic development in their respective 
@@ -28,7 +28,7 @@ const Team = () => {
                         one of fierce competition in which the provider of capital wins to one in which 
                         everyone wins - one that is inclusive, sustainable, and equitable.
                     </p>
-                    <p className="p-about">
+                    <p className="p-about" style={{textAlign:"justify"}}>
                         The team is supplemented with professionally qualified members 
                         from a wide range of diverse backgrounds in Africa and beyond. 
                         Each member is committed to building long-term value for our 
@@ -37,17 +37,12 @@ const Team = () => {
                         expert advice and going above and beyond.
                     </p>
                 </div>
-
-                <div className={styles.empCount}>
-                    <h3>10</h3>
-                    <p>Proffesionals working <br /> to deliver results</p>
-                </div>
             </div>
 
             <div className={styles.founderDiv}>
                 <div>
                     <div className={styles.teamPics}>
-                        <img src={neha} alt=""/>
+                        <img src={neha} alt="" width={110} />
                         <div className={styles.teamDetails}>
                             <a href="https://www.linkedin.com/in/neha-shah-a057b31/" target="blank" rel="noreferrer">Neha Shah</a>
                             <p className="team-title">Co-Founder, <br /> Managing Director</p>
@@ -55,7 +50,7 @@ const Team = () => {
                     </div>
 
                     <div className={styles.teamPics}>
-                        <img src={poonam} alt=""    />
+                        <img src={poonam} alt="" width={110} />
                         <div className={styles.teamDetails}>
                             <a 
                                 href='https://www.linkedin.com/in/poonam-vora-547b9242/?originalSubdomain=ke' 
@@ -78,11 +73,11 @@ const Team = () => {
                         Transaction Services, Research, Accounting, Tax and Advisory services. 
                         Neha has worked extensively in African private equity and investment banking for 
                         several leading global organizations. She also spent considerable time on the ground, 
-                        leading the transformation of the family business in African financial services in Kenya. 
-                        She began her career with KPMG in London, where she trained as a Chartered Accountant (ICAEW). 
+                        leading the transformation of the family business in African financial services in Kenya.  
                     </p>
                     <p>
-                        She then worked in investment banking for Lexicon Partners (now Evercore Partners)' award-winning 
+                        She began her career with KPMG in London, where she trained as a Chartered Accountant (ICAEW).
+                        She then worked in investment banking for Lexicon Partners (now Evercore Partners), an award-winning 
                         UK energy and infrastructure team, as well as Dresdner Kleinwort's UK M&A team (now Commerzbank). 
                         Following that, Neha worked with Norfund, an emerging markets Development Finance Institute backed by 
                         the Norwegian Government, focusing on principal investments in Eastern Africa; as well as Actis, 
@@ -91,10 +86,8 @@ const Team = () => {
                     </p>
                     <p>
                         Neha is also a co-founder at Rafiki Ventures, 
-                        a Venture Investment Company. Neha holds a Master’s degree in Economics from the University of 
-                        Cambridge, where she was on scholarship as a Commonwealth Scholar. She also holds an MBA from INSEAD, 
-                        where she was a Goldman Sachs scholar, graduated with distinction, and was also elected President of 
-                        the INSEAD Africa Society. Neha was named one of the "Top 40 Under 40 women" by the Business Daily in Kenya. 
+                        a venture investment company. Neha holds a Master’s degree in Economics from the University of 
+                        Cambridge and also holds an MBA from INSEAD. Neha was named one of the "Top 40 Under 40 women" by the Business Daily in Kenya. 
                         Neha was a member of Investor’s Circle’s Global Health Advisory Board, one of the largest impact 
                         investor networks, where she advised on global healthcare opportunities, including in Africa. 
                         She was also a member of the Economic Council of Oshwals’ in Kenya. She sits on the board of several 
@@ -112,7 +105,7 @@ const Team = () => {
                         after obtaining a degree in Actuarial Science from City University (UK). 
                     </p>
                     <p>
-                        Over the course of 3 years, she gained significant experience in the 
+                        She has gained significant experience in the 
                         pensions and insurance (general and healthcare) industries in Kenya. 
                         This experience was augmented in the UK as a Protection Product and Deputy Investment Manager 
                         at Bradford & Bingley's. She also has over 10 years experience in 

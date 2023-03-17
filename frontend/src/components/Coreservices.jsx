@@ -2,7 +2,7 @@ import { useEffect } from "react";
 import Banner from "./Banner";
 import styles from './styles/Services.module.css'
 
-import sm_banner from '../assets/images/banner_1.jpg'
+//import sm_banner from '../assets/images/banner_1.jpg'
 import banner_11 from "../assets/banners/banner_11.jpg"
 import banner_12 from "../assets/images/img_three.jpg"
 
@@ -24,7 +24,7 @@ const Coreservices = () => {
                     advisory services to help our clients succeed in the complex and dynamic African market.
                 </p>
             </div>
-            <div className={styles.diverse}>
+            {/* <div className={styles.diverse}>
                 <div className="diver-holder">
                     <p className="front-p">Divestitures</p>
                     <p className="">
@@ -35,7 +35,7 @@ const Coreservices = () => {
                 <div className="diver-img">
                     <img src={sm_banner} alt="" />
                 </div>
-            </div>
+            </div> */}
             <div className={styles.services}>
                 <div>
                     <h4>Investment Advisory</h4>

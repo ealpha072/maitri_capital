@@ -23,28 +23,28 @@ const Sectors = () => {
             <div className="sector-brief about-top d-flex">
                 <div className="sector-expl about-p">
                     <p className="front-p">Industry Coverage</p>
-                    <p className="p-about">
-                        We're an integrated part of the African economy, leveraging our expertise 
-                        in key sectors like agriculture, real estate, education, health, infrastructure, 
-                        Power and Clean Energy, hospitality, and ICT to provide the best possible investment 
+                    <p className="p-about" style={{textAlign:"justify"}}>
+                        We're an integrated part of the African economy, leveraging our expertise
+                        in key sectors like agriculture, real estate, education, health, infrastructure,
+                        Power and Clean Energy, hospitality, and ICT to provide the best possible investment
                         and corporate advisory services.
                     </p>
-                    <p className="aside-sectors" style={{paddingLeft:'25px'}}>
-                        The company leverages its vast knowledge and expertise in these sectors to provide 
-                        bespoke solutions to its clients. With a proven track record of success spanning over six years, 
+                    <p className="aside-sectors" style={{paddingLeft:'25px', textAlign:"justify"}}>
+                        The company leverages its vast knowledge and expertise in these sectors to provide
+                        bespoke solutions to its clients. With a proven track record of success spanning over six years,
                         Maitri Capital continues to set the standard for quality service delivery in the industry.
                     </p>
-                    <p className="aside-sectors" style={{paddingLeft:'25px'}}>
-                        The company's commitment to excellence, attention to detail, 
-                        and ability to adapt to the ever-changing market dynamics has made it a 
-                        preferred partner for many businesses seeking investment and corporate advisory services 
+                    <p className="aside-sectors" style={{paddingLeft:'25px', textAlign:"justify"}}>
+                        The company's commitment to excellence, attention to detail,
+                        and ability to adapt to the ever-changing market dynamics has made it a
+                        preferred partner for many businesses seeking investment and corporate advisory services
                         in these sectors.
                     </p>
                 </div>
-                <div className={styles.sectorCount}>
+                {/* <div className={styles.sectorCount}>
                     <p>11</p>
                     <p className='core-ind'>Core Sectors</p>
-                </div>
+                </div> */}
             </div>
             <div className="sector-specific about-bottom" style={{backgroundColor:'#c1dee7'}}>
                 <p className={styles.specificIndustries}>Specific Industries</p>
@@ -86,9 +86,9 @@ const Sectors = () => {
                         </div>
                     </div>
 
-                <a href="/#" onClick={ handleToggle }>{!isDisplay ? "More" : "Less"}</a>
+                {/* <a href="/#" onClick={ handleToggle }>{!isDisplay ? "More" : "Less"}</a> */}
                 </div>
-                <div className={isDisplay ? `row ${styles.bottomSection}  hidden-industries`: `hide`} style={{paddingTop:'0px'}}>
+                <div className={ `row ${styles.bottomSection}` } style={{paddingTop:'0px'}}>
                     <div className="col-lg col-md-4 col-sm-4 col-6">
                         <div className="sector-icon">
                             <i className='fa fa-bolt'></i>

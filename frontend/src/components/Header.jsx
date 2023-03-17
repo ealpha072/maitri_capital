@@ -38,7 +38,7 @@ const Header = () => {
                     <div className="dropdown">
                         <a href="/#" className='dropdown-toggle' id="dropdownMenuButton" data-toggle="dropdown" aria-expanded="false">About Us </a>
                         <div className="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                            <Link className="dropdown-item" to='/'>Our Mission</Link>
+                            <Link className="dropdown-item" to='/#mission'>Our Mission</Link>
                             <Link className="dropdown-item" to='/'>Our Values</Link>
                             <Link className="dropdown-item" to='/'>What Differentiates Us</Link>
                         </div>
@@ -47,9 +47,11 @@ const Header = () => {
                     <div className="dropdown">
                         <a href="/#" className='dropdown-toggle' id="dropdownMenuButtonServices" data-toggle="dropdown" aria-expanded="false">Services </a>
                         <div className="dropdown-menu" aria-labelledby="dropdownMenuButtonServices">
+                            <Link className="dropdown-item" to="coreservices">Services</Link>
+                            <div class="dropdown-divider"></div>
                             <Link className="dropdown-item" to='coreservices'>Investment Advisory</Link>
                             <Link className="dropdown-item" to='coreservices'>Corporate Advisory</Link>
-                            <Link className="dropdown-item" to='coreservices'>Research</Link>
+                            <Link className="dropdown-item" to='coreservices'>Research & Data Insights</Link>
                         </div>
                     </div>
                     <div className="dropdown">

@@ -77,7 +77,7 @@ const About = () => {
 				shortText={shortText}
 			/>
 
-			<div className={styles.aboutTop}>
+			<div className={styles.aboutTop}  id="mission">
 				<div className={styles.missionDiv}>
 					<p>Our Mission</p>
 					<p className="">
