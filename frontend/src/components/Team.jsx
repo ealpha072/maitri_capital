@@ -40,32 +40,87 @@ const Team = () => {
             </div>
 
             <div className={styles.founderDiv}>
-                <div>
+                <div className={styles.founderDivInner}>
                     <div className={styles.teamPics}>
-                        <img src={neha} alt="" width={110} />
                         <div className={styles.teamDetails}>
-                            <a href="https://www.linkedin.com/in/neha-shah-a057b31/" target="blank" rel="noreferrer">Neha Shah</a>
+                            <a href="https://www.linkedin.com/in/neha-shah-a057b31/" target="blank" rel="noreferrer">
+                                <img src={neha} alt="" width={110} />
+                            </a>
                             <p className="team-title">Co-Founder, <br /> Managing Director</p>
+                        </div>
+                        <div className={styles.founderHolder}>
+                            <p>Neha Shah</p>
+                            <p>
+                                Neha has over 20 years of experience in Private Equity, Corporate Finance, M&A, 
+                                Transaction Services, Research, Accounting, Tax and Advisory services. 
+                                Neha has worked extensively in African private equity and investment banking for 
+                                several leading global organizations. She also spent considerable time on the ground, 
+                                leading the transformation of the family business in African financial services in Kenya.  
+                            </p>
+                            <p>
+                                She began her career with KPMG in London, where she trained as a Chartered Accountant (ICAEW).
+                                She then worked in investment banking for Lexicon Partners (now Evercore Partners), an award-winning 
+                                UK energy and infrastructure team, as well as Dresdner Kleinwort's UK M&A team (now Commerzbank). 
+                                Following that, Neha worked with Norfund, an emerging markets Development Finance Institute backed by 
+                                the Norwegian Government, focusing on principal investments in Eastern Africa; as well as Actis, 
+                                one of the largest emerging markets private equity funds, where she focused on Energy and 
+                                Infrastructure investments, especially in Africa.
+                            </p>
+                            <p>
+                                Neha is also a co-founder at Rafiki Ventures, 
+                                a venture investment company. Neha holds a Master’s degree in Economics from the University of 
+                                Cambridge and also holds an MBA from INSEAD. Neha was named one of the "Top 40 Under 40 women" by the Business Daily in Kenya. 
+                                Neha was a member of Investor’s Circle’s Global Health Advisory Board, one of the largest impact 
+                                investor networks, where she advised on global healthcare opportunities, including in Africa. 
+                                She was also a member of the Economic Council of Oshwals’ in Kenya. She sits on the board of several 
+                                privately owned businesses in Africa and the UK.
+                            </p>
                         </div>
                     </div>
 
                     <div className={styles.teamPics}>
-                        <img src={poonam} alt="" width={110} />
                         <div className={styles.teamDetails}>
+                            
                             <a 
                                 href='https://www.linkedin.com/in/poonam-vora-547b9242/?originalSubdomain=ke' 
                                 target="blank"
                                 rel="noreferrer"
                             >
-                                Poonam Vora
+                                <img src={poonam} alt="" width={110} />
                             </a>
                             <p className="team-title">Co-Founder, <br /> Managing Director</p>
+                        </div>
+                        <div className={styles.founderHolder}>
+                            <p>Poonam Vora</p>
+                            <p>
+                                Poonam has over 20 years of experience in Corporate Finance,
+                                M&A, Transaction Services, Research and Advisory services.
+                                She began her career as an Actuarial Analyst with Alexander Forbes 
+                                Financial Services (thereafter renamed to Zamara Financial Services) 
+                                after obtaining a degree in Actuarial Science from City University (UK). 
+                            </p>
+                            <p>
+                                She has gained significant experience in the 
+                                pensions and insurance (general and healthcare) industries in Kenya. 
+                                This experience was augmented in the UK as a Protection Product and Deputy Investment Manager 
+                                at Bradford & Bingley's. She also has over 10 years experience in 
+                                Corporate Finance, Advisory, and Research where and has been involved in some of the largest IPOs in Kenya, 
+                                including KenyaRe and Safaricom, and a boutique advisory firm where she was 
+                                instrumental in deal sourcing, conducting due diligence, leading research, 
+                                and a key member of the deal advisory team. 
+                            </p>
+                            <p>
+                                She is also the co-founder of Rafiki Ventures, a venture investment company. 
+                                Poonam is also an active angel investor in startups in Africa. Poonam sits on the 
+                                Board of Directors of Jubilee Financial Services Limited, and is a fund manager for 
+                                several institutions.
+                            </p>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div className={styles.founderHolder}>
+            {/* <div className={styles.founderHolder}>
                 <div>
                     <p>Neha Shah</p>
                     <p>
@@ -121,7 +176,7 @@ const Team = () => {
                         several institutions.
                     </p>
                 </div>
-            </div>
+            </div> */}
         </div>
   );
 }

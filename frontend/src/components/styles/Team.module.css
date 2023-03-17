@@ -19,14 +19,6 @@
     line-height: 1.625rem;
 }
 
-.teamPics > div{
-    padding-top: 25px;
-    padding-bottom:25px;
-    width: 90%;
-    margin:auto;
-    overflow: hidden;
-}
-
 .teamPics img{
     /* border: 2px solid #154667; */
     cursor: pointer;
@@ -38,17 +30,11 @@
     transform: scale(0.9);
 }
 
-
-.founderDiv > div{
+.founderDivInner{
     display: flex;
     justify-content: space-around;
-    width: 50%;
+    width: 90%;
     margin: auto;
-}
-
-.teamDetails{
-    text-align: center;
-    margin-top: 20px;
 }
 
 .teamDetails a{
@@ -56,6 +42,12 @@
     font-weight: 500;
     font-family: "Georgia",serif;
     padding-bottom: 10px;
+}
+
+.teamDetails{
+    width: 90%;
+    margin: auto;
+    text-align: center;
 }
 
 .teamDetails p{
@@ -73,28 +65,22 @@
     margin-top: 20px;
 }
 
-.founderHolder > div {
-    width: 90%;
-}
-
-.founderHolder > div p:first-child{
+.founderHolder p:first-child{
     font-size: 1.875rem;
     line-height: 2.375rem;
     letter-spacing: -1px;
     color:var(--hlblue);
-    padding: 10px 25px 0 25px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: justify;
 }
 
-.founderHolder > div p:not(:first-child){
+.founderHolder p:not(:first-child){
     font-size: 1.2rem;
     text-align: justify;
     line-height: 1.875rem;
     color: #154667;
     font-family: "Georgia",serif;
     margin-bottom: 10px;
-    padding-left: 25px;
 }
 
 @media screen and (max-width:750px){

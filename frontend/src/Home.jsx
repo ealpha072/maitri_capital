@@ -14,6 +14,7 @@ import Contact from './components/Contact'
 import Knowledge from './components/Knowledge'
 import Credentials from './components/Credentials'
 import Casestudy from './components/Casestudy'
+import Clients from './components/Clients'
 
 
 const Home = () => {
@@ -30,6 +31,7 @@ const Home = () => {
 				<Route path='/contact' element={ <Contact /> } />
 				<Route path='/knowledge' element={<Knowledge />} />
 				<Route path='/credentials' element={<Credentials />} />
+				<Route path='/clients' element={<Clients />} />
 				<Route path='/knowledge/case_studies' element={<Casestudy />} />
           	</Routes>
           	<Footer />

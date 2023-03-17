@@ -13,7 +13,7 @@ const Header = () => {
                 <div className='d-flex nav-top-div'>
                     <div className="navtop-link">
                         <Link to='/contact'>Contacts</Link>
-                        <Link to='/careers'>Careers</Link>
+                        <Link to='#'>Careers</Link>
                     </div>
                     <input 
                         type="text" 
@@ -57,14 +57,18 @@ const Header = () => {
                     <div className="dropdown">
                         <a href="/#" className='dropdown-toggle' id="dropdownMenuButtonClients" data-toggle="dropdown" aria-expanded="false">Clients </a>
                         <div className="dropdown-menu" aria-labelledby="dropdownMenuButtonClients">
-                            <a className="dropdown-item" href="/#">Investors</a>
-                            <a className="dropdown-item" href="/#">Companies & Entrepreneurs</a>
-                            <a className="dropdown-item" href="/#">Institutional</a>
+                            <Link className="dropdown-item" to="/clients">Clients</Link>
+                            <div class="dropdown-divider"></div>
+                            <a className="dropdown-item" href="/clients">Investors</a>
+                            <a className="dropdown-item" href="/clients">Companies & Entrepreneurs</a>
+                            <a className="dropdown-item" href="/clients">Institutional</a>
                         </div>
                     </div>
                     <div className="dropdown">
                         <a href="/#" className='dropdown-toggle' id="dropdownMenuButtonIndustry" data-toggle="dropdown" aria-expanded="false">Industry Coverage </a>
                         <div className="dropdown-menu" aria-labelledby="dropdownMenuButtonIndustry">
+                            <Link className="dropdown-item" to="/sectors">Industry Coverage</Link>
+                            <div class="dropdown-divider"></div>
                             <Link className="dropdown-item" to='/sectors'>Agriculture</Link>
                             <Link className="dropdown-item" to='/sectors'>Education</Link>
                             <Link className="dropdown-item" to='/sectors'>Financial Services</Link>
@@ -84,7 +88,7 @@ const Header = () => {
                             <Link className="dropdown-item" to="/knowledge">Knowledge</Link>
                             <div class="dropdown-divider"></div>
                             <Link className="dropdown-item" to="/knowledge/case_studies">Case Studies</Link>
-                            <Link className="dropdown-item" href="/#">Publications</Link>
+                            {/* <Link className="dropdown-item" href="/#">Publications</Link> */}
                         </div>
                     </div>
                 </div>

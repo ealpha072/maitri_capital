@@ -1,5 +1,8 @@
 import { useEffect } from "react"
+import { Link } from "react-router-dom"
 import styles from "./styles/Contact.module.css"
+
+
 
 import Banner from "./Banner"
 import banner_6 from "../assets/banners/banner_6.jpg"
@@ -30,23 +33,23 @@ const Contact = () => {
                     <p className="front-p">Contact Us </p>
                     <p className="p-about">
                         Thank you for your interest in Maitri Capital. 
-                        If you have a question specifically about our services 
-                        and how we may be able to help you please contact your local office 
-                        below and they will connect you with the best suited individual.
+                        If you have a question about our services 
+                        and how we may be able to help you please contact raech out at  
+                         <a href="mailto:info@maitri-group.com"> info@maitri-group.com</a>
                     </p>
                     <p className="p-about">
-                        If you are interested in a career with us, please visit the careers 
-                        section of our website..
+                        If you are interested in a career with us, please visit the 
+                        <Link to="/careers"> careers</Link> page
                     </p>
                     <p className="p-about">
-                        If you have a media enquiry please email  <a href="mailto:info@maitri-group.com">info@maitri-group.com</a>
+                        If you have a media enquiry please email <a href="mailto:info@maitri-group.com">info@maitri-group.com</a>
                     </p>
                     <p className="p-about">
-                        If you would like to receive our news please sign up using the form below.
+                        If you would like to receive our news please reach out at <a href="mailto:info@maitri-group.com">info@maitri-group.com</a>.
                     </p>
                 </div>
             </div>
-            <div className={styles.contactForm}>
+            {/* <div className={styles.contactForm}>
                 <form action="" className={styles.form}>
                     <div className="row">
                         <div className="form-group col-12 col-md-6 col-lg-6">
@@ -79,7 +82,7 @@ const Contact = () => {
                         </div>
                     </div>
                 </form>
-            </div>
+            </div> */}
         </div>
   )
 }

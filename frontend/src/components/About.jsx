@@ -27,10 +27,10 @@ const About = () => {
 			head:`Relationship Driven`,
 			items:[
 				`Our senior directors are personally involved with every 
-				client discussion and project
-				We fully grasp and internalise clients’ goals
-				Promote understanding and purpose in all endeavours
-				We manage client and firm resources cost-effectively`
+				client discussion and project.
+				We fully grasp and internalise clients’ goals and
+				promote understanding and purpose in all endeavours.
+				We manage client and firm resources cost-effectively.`
 			]
 		},
 		{
@@ -41,7 +41,7 @@ const About = () => {
 				objective strategic advice that reflects and responds to clients’
 				circumstances, requirements, goals, and aspirations.
 				We are not incentivised to sell other products.
-				Adhere to the highest professional standards Non-hierarchical and inclusive`
+				Adhere to the highest professional standards Non-hierarchical and inclusive.`
 			]
 	
 		},
@@ -49,11 +49,10 @@ const About = () => {
 			iconClass:"fa fa-lightbulb-o",
 			head:`Knowledge & Expertise`,
 			items:[
-				`We are built on substantial experience and knowledge in investment banking and financial advisory
-				We capitalize on and leverage our long-standing transactional 
-				and structuring expertise to craft tailor-made solutions
-				Bring innovations in solutions to our clients
-				Build capability and client capacity to ensure sustainability`
+				`We are built on substantial experience and knowledge in investment banking and financial advisory.
+				We capitalize on and leverage our long-standing transaction 
+				and structuring expertise to craft tailor-made solutions.
+				We bring innovations in solutions to our clients.`
 			]
 		},
 		{
@@ -63,7 +62,7 @@ const About = () => {
 				`We exercise the utmost discretion and integrity at all times.
 				We address clients’ corporate finance, capital markets and strategic advisory needs 
 				while keeping the company affairs strictly confidential.
-				Our corporate culture is built on integrity, professional principles and respect`
+				Our corporate culture is built on integrity, professional principles and respect.`
 			]
 		}
 	]
@@ -161,7 +160,7 @@ const About = () => {
 									<li>We are bold.</li>
 									<li>
 										We work in some of the world’s most difficult environments
-										and on complex problems{" "}
+										and on complex problems.
 									</li>
 									<li>
 										We challenge conventional thinking, go beyond typical
