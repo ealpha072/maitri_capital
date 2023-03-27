@@ -1,5 +1,5 @@
 // import React from 'react'
-import { BrowserRouter as Router, Routes, Route} from 'react-router-dom'
+import { BrowserRouter as Router, Routes, Route, Navigate} from 'react-router-dom'
 
 //pages
 import Header from './components/Header'
@@ -19,26 +19,33 @@ import Careers from './components/Careers'
 
 
 const Home = () => {
-  return (
-    <div>
-        <Router >
-          	<Header />
-          	<Routes>
-				<Route path='/' element={<About />} />
-				<Route path='/sectors' element={ <Sectors /> } />
-				<Route path='/coreservices' element={ <Coreservices /> } />
-				<Route path='/research' element={ <Research /> } />
-				<Route path='/team' element={ <Team /> } />
-				<Route path='/contact' element={ <Contact /> } />
-				<Route path='/knowledge' element={<Knowledge />} />
-				<Route path='/credentials' element={<Credentials />} />
-				<Route path='/clients' element={<Clients />} />
-				<Route path='/careers' element={<Careers />} />
-				<Route path='/knowledge/case_studies' element={<Casestudy />} />
-          	</Routes>
-          	<Footer />
-        </Router>
-    </div>
+  	return (
+
+		<div>
+			<Router >
+				<Header />
+				<Routes>
+					<Route path='/' element={<About />} />
+					<Route path='/sectors' element={ <Sectors /> } />
+					<Route path='/coreservices' element={ <Coreservices /> } />
+					<Route path='/research' element={ <Research /> } />
+					<Route path='/team' element={ <Team /> } />
+					<Route path='/contact' element={ <Contact /> } />
+					<Route path='/knowledge' element={<Knowledge />} />
+
+					<Route 
+						path="/static/media/Understanding_The_Kenyan_Startup_Ecosystem_Report_Final.3189e45751741ced2d0f.pdf" 
+						element={ <Navigate to="/knowledge" /> } 
+					/>
+
+					<Route path='/credentials' element={<Credentials />} />
+					<Route path='/clients' element={<Clients />} />
+					<Route path='/careers' element={<Careers />} />
+					<Route path='/knowledge/case_studies' element={<Casestudy />} />
+				</Routes>
+				<Footer />
+			</Router>
+		</div>
   )
 }
 
