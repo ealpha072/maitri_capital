@@ -109,7 +109,7 @@ const Footer = () => {
                         <li><a href="tel:+254736920222"><i className='fa fa-phone'></i></a></li>
                     </ul>
                     <p>Contact developer 
-                        <a href="mailto:ealpha072@gmai.com">
+                        <a href="mailto:ealpha072@gmail.com">
                             <strong>@Alpha Developers</strong>
                         </a>
                     </p>
