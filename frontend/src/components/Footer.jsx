@@ -108,6 +108,11 @@ const Footer = () => {
                         <li><a href="https://www.linkedin.com/company/maitricapitalltd/"  target="_blank" rel="noreferrer"><i className='fa fa-linkedin'></i></a></li>
                         <li><a href="tel:+254736920222"><i className='fa fa-phone'></i></a></li>
                     </ul>
+                    <p>Contact developer 
+                        <a href="mailto:ealpha072@gmai.com">
+                            <strong>@Alpha Developers</strong>
+                        </a>
+                    </p>
                 </div>
             </div>
         </footer>

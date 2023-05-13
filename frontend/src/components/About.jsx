@@ -13,7 +13,7 @@ const About = () => {
     })
 
    	const text = `Independent, Client-Focused Impact Investment, 
-	and Corporate Advisory and Research for Africa`
+	Corporate Advisory and Research for Africa`
 
 	const shortText = `Providing our clients with unrivaled market knowledge, experience, 
    		global execution capabilities and industry-leading network access in order to 

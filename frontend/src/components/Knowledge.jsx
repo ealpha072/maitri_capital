@@ -33,7 +33,7 @@ import document_seven from "../assets/knowledge/Maitri Capital_Kenya Labor Force
 
 const Knowledge = () => {
     useEffect(()=>{
-        document.title = "Maitri Capital -  Knowledge"
+        document.title = "Maitri Capital - Knowledge"
     })
 
     const imagesOne = [
@@ -111,42 +111,42 @@ const Knowledge = () => {
     ]
 
     const text = "Diversified Knowledge"
-    return (
-        <div className="knowledgeContainer">
-            <Banner backgroundImg={banner_10} extraImg={banner_9}  mainText={text} />
-            <div className={styles.knowledgeHead}>
-                <h3>Knowledge </h3>
-            </div>
-            <div className={styles.knowledgeMain}>
-                <div className={styles.dividerDiv}></div>
-                <div className="row">
-                    {
-                        imagesOne.map((image, index) => (
-                            <BuildCard img_details={ image } styles={styles.infoHolder} key={index} />
-                        ))
-                    }
+        return (
+            <div className="knowledgeContainer">
+                <Banner backgroundImg={banner_10} extraImg={banner_9}  mainText={text} />
+                <div className={styles.knowledgeHead}>
+                    <h3>Knowledge </h3>
                 </div>
-                <div className="row">
-                    {
-                        imagesTwo.map((image, index) => (
-                            <BuildCard 
-                                img_details={ image } 
-                                styles= {styles.infoHolder} 
-                                key={index} 
-                            />
-                        ))
-                    }
+                <div className={styles.knowledgeMain}>
+                    <div className={styles.dividerDiv}></div>
+                    <div className="row">
+                        {
+                            imagesOne.map((image, index) => (
+                                <BuildCard img_details={ image } styles={styles.infoHolder} key={index} />
+                            ))
+                        }
+                    </div>
+                    <div className="row">
+                        {
+                            imagesTwo.map((image, index) => (
+                                <BuildCard 
+                                    img_details={ image } 
+                                    styles= {styles.infoHolder} 
+                                    key={index} 
+                                />
+                            ))
+                        }
+                    </div>
+                    <div className="row">
+                        {
+                            imagesThree.map((image, index) => (
+                                <BuildCard img_details={ image } styles={styles.infoHolder} key={index} />
+                            ))
+                        }
+                    </div> 
                 </div>
-                <div className="row">
-                    {
-                        imagesThree.map((image, index) => (
-                            <BuildCard img_details={ image } styles={styles.infoHolder} key={index} />
-                        ))
-                    }
-                </div> 
             </div>
-        </div>
-    );
+        );
 }
 
 export default Knowledge
