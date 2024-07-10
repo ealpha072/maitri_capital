@@ -8,6 +8,10 @@ import Banner from "./Banner";
 import banner_9 from "../assets/banners/banner_9.jpg"
 import banner_10 from "../assets/banners/banner_10.jpg"
 
+import full_report_link from "../assets/knowledge/Unlocking_Capital_for_IVMs_in_Africa_Research_Report.pdf"
+import case_study_link from "../assets/knowledge/Unlocking_Capital_for_IVMs_in_Africa_Research_Case_Studies.pdf"
+import exec_summary from "../assets/knowledge/Unlocking_Capital_for_IVMs_in_Africa_Executive_Summary.pdf"
+
 const AwiComponent = () => {
 
   useEffect(()=>{
@@ -42,13 +46,13 @@ const AwiComponent = () => {
         </p>
 
         <p>
-          Read the full report <a href=""> <i className="fa fa-download"></i> here</a>
+          Read the full report <a href={full_report_link} target="_blank"> <i className="fa fa-download"></i> here</a>
         </p>
         <p>
-          Read the executive summary <a href=""> <i className="fa fa-download"></i> here </a>
+          Read the executive summary <a href={exec_summary} target="_blank"> <i className="fa fa-download"></i> here </a>
         </p>
         <p>
-          Read the case studies <a href=""><i className="fa fa-download"></i> here</a>
+          Read the case studies <a href={case_study_link} target="_blank"><i className="fa fa-download"></i> here</a>
         </p>
       </div>
     </div>
