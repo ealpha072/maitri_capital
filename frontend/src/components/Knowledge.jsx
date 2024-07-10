@@ -9,6 +9,7 @@ import banner_9 from "../assets/banners/banner_9.jpg"
 import banner_10 from "../assets/banners/banner_10.jpg"
 
 //IMAGES
+import image_zero from "../assets/screens/awi_report.png"
 import image_one from "../assets/screens/startups.png"
 import image_two from "../assets/screens/covid.png"
 import image_three from "../assets/screens/covid_kenya_markets.png"
@@ -28,7 +29,6 @@ import document_four from "../assets/knowledge/Maitri Capital's 50 Global Inspir
 import document_nine from "../assets/knowledge/Maitri Capital_Why Investors Choose East Africa_Final.png"
 import document_five from "../assets/knowledge/Maitri Capital_COVID in EA Overview_Final.pdf"
 import document_one from "../assets/knowledge/Understanding_The_Kenyan_Startup_Ecosystem_Report_Final.pdf"
-//import document_one from "../assets/knowledge/Understanding the Kenyan Startup Ecosystem Report.pdf"
 import document_seven from "../assets/knowledge/Maitri Capital_Kenya Labor Force Infographic_Final.png"
 
 const Knowledge = () => {
@@ -36,7 +36,14 @@ const Knowledge = () => {
         document.title = "Maitri Capital - Knowledge"
     })
 
-    const imagesOne = [
+    const initialImages = [
+        {
+            source:image_zero,
+            date:"JULY 2024",
+            heading:"Unlocking Capital for Emerging Female Investment Vehicle Managers in Africa",
+            smallText:"A look at the evolution of the Kenyan Startup Ecosystem",
+            link:"../knowledge/Unlocking_Capital_for_Emerging_Female_Investment_Vehicle_Managers_in_Africa",
+        },
         {
             source:image_one,
             date:"MARCH 2023",
@@ -52,7 +59,11 @@ const Knowledge = () => {
             heading:"State of COVID-19 Vaccination and Africa",
             smallText:"A look at the evolution of the Kenyan Startup Ecosystem",
             link:document_two
-        },
+        }
+    ]
+
+    const imagesOne = [
+        
         {
             source:image_five,
             date:"MARCH 2020",
@@ -60,9 +71,6 @@ const Knowledge = () => {
             smallText:"A look at the evolution of the Kenyan Startup Ecosystem",
             link:document_five
         },
-    ]
-
-    const imagesTwo = [
         {
             source:image_eight,
             date:"MARCH 2020",
@@ -77,16 +85,17 @@ const Knowledge = () => {
             smallText:"A look at the evolution of the Kenyan Startup Ecosystem",
             link:document_nine
         },
+    ]
+
+    const imagesTwo = [
+       
         {
             source:image_seven,
             date:"MAY 2020",
             heading:"The Kenyan Labor Market Dynamics",
             smallText:"A look at the evolution of the Kenyan Startup Ecosystem",
             link:document_seven
-        }
-    ]
-
-    const imagesThree = [
+        },
         {
             source:image_three,
             date:"MAY 2020",
@@ -101,6 +110,10 @@ const Knowledge = () => {
             smallText:"A look at the evolution of the Kenyan Startup Ecosystem",
             link:document_six
         },
+    ]
+
+    const imagesThree = [
+        
         {
             source:image_four,
             date:"DECEMBER 2020",
@@ -119,6 +132,13 @@ const Knowledge = () => {
                 </div>
                 <div className={styles.knowledgeMain}>
                     <div className={styles.dividerDiv}></div>
+                    <div className="row">
+                        {
+                            initialImages.map((image, index) => (
+                                <BuildCard img_details={ image } styles={styles.infoHolder} key={index} />
+                            ))
+                        }
+                    </div>
                     <div className="row">
                         {
                             imagesOne.map((image, index) => (
@@ -143,7 +163,7 @@ const Knowledge = () => {
                                 <BuildCard img_details={ image } styles={styles.infoHolder} key={index} />
                             ))
                         }
-                    </div> 
+                    </div>
                 </div>
             </div>
         );

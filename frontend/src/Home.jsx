@@ -16,6 +16,7 @@ import Credentials from './components/Credentials'
 import Casestudy from './components/Casestudy'
 import Clients from './components/Clients'
 import Careers from './components/Careers'
+import AwiComponent from './components/awi'
 
 
 const Home = () => {
@@ -32,7 +33,6 @@ const Home = () => {
 					<Route path='/team' element={ <Team /> } />
 					<Route path='/contact' element={ <Contact /> } />
 					<Route path='/knowledge' element={<Knowledge />} />
-
 					<Route 
 						path="/static/media/Understanding_The_Kenyan_Startup_Ecosystem_Report_Final.3189e45751741ced2d0f.pdf" 
 						element={ <Navigate to="/knowledge" /> } 
@@ -42,6 +42,10 @@ const Home = () => {
 					<Route path='/clients' element={<Clients />} />
 					<Route path='/careers' element={<Careers />} />
 					<Route path='/knowledge/case_studies' element={<Casestudy />} />
+					<Route 
+						path='knowledge/Unlocking_Capital_for_Emerging_Female_Investment_Vehicle_Managers_in_Africa' 
+						element={<AwiComponent />}
+					/>
 				</Routes>
 				<Footer />
 			</Router>
