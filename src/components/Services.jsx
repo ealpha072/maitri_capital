@@ -24,7 +24,7 @@ export const Services = ({service_array}) => {
 export const BuildCard = ({ img_details, styles }) => {
   	return (
 		<div className={`col-12 col-md-6 col-lg-4`}>
-			<Link to={img_details.link} target="_blank">
+			<Link to={img_details.link}>
 				<img src={img_details.source} height="456" width="980" alt="" />
 				<div className={styles}>
 					<p>

@@ -43,6 +43,7 @@ const Knowledge = () => {
             heading:"Unlocking Capital for Emerging Female Investment Vehicle Managers in Africa",
             smallText:"A look at the evolution of the Kenyan Startup Ecosystem",
             link:"../knowledge/Unlocking_Capital_for_Emerging_Female_Investment_Vehicle_Managers_in_Africa",
+            moreMaterials:"../knowledge/Unlocking_Capital_for_Emerging_Female_Investment_Vehicle_Managers_in_Africa"
         },
         {
             source:image_one,
@@ -50,7 +51,6 @@ const Knowledge = () => {
             heading:"Understanding The Kenyan Startup Ecosystem",
             smallText:"A look at the evolution of the Kenyan Startup Ecosystem",
             link:document_one,
-            
             moreMaterials:"case_studies"
         },
         {
